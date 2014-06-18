@@ -1,0 +1,2457 @@
+<TaskerData sr="" dvi="1" tv="4.4b5m">
+	<dmetric>768.0,1184.0</dmetric>
+	<Profile sr="prof167" ve="2">
+		<cdate>1367912511078</cdate>
+		<clp>true</clp>
+		<edate>1394416899274</edate>
+		<id>167</id>
+		<mid0>170</mid0>
+		<nme>DisplayUnlocked</nme>
+		<Event sr="con0" ve="2">
+			<code>1000</code>
+		</Event>
+	</Profile>
+	<Profile sr="prof171" ve="2">
+		<cdate>1367912692375</cdate>
+		<clp>true</clp>
+		<edate>1394416897737</edate>
+		<id>171</id>
+		<mid0>172</mid0>
+		<nme>DisplayOff</nme>
+		<Event sr="con0" ve="2">
+			<code>210</code>
+		</Event>
+	</Profile>
+	<Profile sr="prof173" ve="2">
+		<cdate>1367913328294</cdate>
+		<clp>true</clp>
+		<edate>1386304341112</edate>
+		<id>173</id>
+		<mid0>174</mid0>
+		<mid1>179</mid1>
+		<nme>BatteryManager</nme>
+		<Time sr="con0">
+			<fh>6</fh>
+			<fm>0</fm>
+			<th>23</th>
+			<tm>30</tm>
+		</Time>
+	</Profile>
+	<Profile sr="prof175" ve="2">
+		<cdate>1367913762589</cdate>
+		<clp>true</clp>
+		<edate>1402481208064</edate>
+		<id>175</id>
+		<limit>true</limit>
+		<mid0>176</mid0>
+		<nme>DaySchedule</nme>
+		<Time sr="con0">
+			<fh>-1</fh>
+			<fm>-1</fm>
+			<rep>2</rep>
+			<repval>5</repval>
+			<th>-1</th>
+			<tm>-1</tm>
+		</Time>
+	</Profile>
+	<Profile sr="prof177" ve="2">
+		<cdate>1367913895443</cdate>
+		<clp>true</clp>
+		<edate>1386562761156</edate>
+		<id>177</id>
+		<limit>true</limit>
+		<mid0>178</mid0>
+		<nme>ActiveNightSchedule</nme>
+		<Time sr="con0">
+			<fh>-1</fh>
+			<fm>-1</fm>
+			<rep>1</rep>
+			<repval>1</repval>
+			<th>-1</th>
+			<tm>-1</tm>
+		</Time>
+	</Profile>
+	<Profile sr="prof180" ve="2">
+		<cdate>1367914351750</cdate>
+		<clp>true</clp>
+		<edate>1394416804618</edate>
+		<id>180</id>
+		<mid0>181</mid0>
+		<mid1>233</mid1>
+		<nme>LowBatteryMonitor</nme>
+		<State sr="con0" ve="2">
+			<code>140</code>
+			<Int sr="arg0" val="0"/>
+			<Int sr="arg1" val="15"/>
+		</State>
+	</Profile>
+	<Profile sr="prof185" ve="2">
+		<cdate>1367928040380</cdate>
+		<clp>true</clp>
+		<edate>1386936178831</edate>
+		<id>185</id>
+		<mid0>186</mid0>
+		<mid1>235</mid1>
+		<nme>IsDataOn</nme>
+		<State sr="con0" ve="2">
+			<code>110</code>
+			<Int sr="arg0" val="1"/>
+			<Int sr="arg1" val="1"/>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="1"/>
+		</State>
+	</Profile>
+	<Profile sr="prof200" ve="2">
+		<cdate>1385604691437</cdate>
+		<clp>true</clp>
+		<edate>1394416897980</edate>
+		<id>200</id>
+		<mid0>201</mid0>
+		<nme>DisplayOn</nme>
+		<Event sr="con0" ve="2">
+			<code>208</code>
+		</Event>
+	</Profile>
+	<Profile sr="prof202" ve="2">
+		<cdate>1385383362976</cdate>
+		<clp>true</clp>
+		<edate>1385602208319</edate>
+		<id>202</id>
+		<mid0>203</mid0>
+		<nme>StartBatteryBot</nme>
+		<Event sr="con0" ve="2">
+			<code>411</code>
+			<pri>0</pri>
+		</Event>
+	</Profile>
+	<Project sr="proj0" ve="2">
+		<cdate>1367912433439</cdate>
+		<name>TBM</name>
+		<pids>167,171,173,200,175,180,177,202,185</pids>
+		<scenes>BatteryBotSettingsPopup</scenes>
+		<tids>189,186,219,215,235,190,181,179,214,178,199,184,176,213,182,172,188,201,198,183,231,170,143,174,233,230,220,203,187,228,229</tids>
+		<Kid sr="Kid">
+			<feat0>android.hardware.wifi:y</feat0>
+			<launchID>228</launchID>
+			<pkg>com.thednase.taskerapp.batterybot</pkg>
+			<vnme>1.3.8</vnme>
+			<vnum>18</vnum>
+		</Kid>
+		<Img sr="icon" ve="2">
+			<nme>hd_aaa_ext_bulb</nme>
+		</Img>
+	</Project>
+	<Scene sr="sceneBatteryBotSettingsPopup">
+		<cdate>1386563712716</cdate>
+		<edate>1403054494712</edate>
+		<heightLand>768</heightLand>
+		<heightPort>961</heightPort>
+		<nme>BatteryBotSettingsPopup</nme>
+		<widthLand>667</widthLand>
+		<widthPort>667</widthPort>
+		<ButtonElement sr="elements0" ve="3">
+			<clickTask>229</clickTask>
+			<flags>4</flags>
+			<geom>0,881,222,79,0,689,222,79</geom>
+			<Str sr="arg0" ve="3">Enable</Str>
+			<Str sr="arg1" ve="3">Enable</Str>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Img sr="arg7" ve="2"/>
+		</ButtonElement>
+		<ButtonElement sr="elements1" ve="3">
+			<clickTask>230</clickTask>
+			<flags>4</flags>
+			<geom>223,881,218,79,223,689,218,79</geom>
+			<Str sr="arg0" ve="3">Disable</Str>
+			<Str sr="arg1" ve="3">Disable</Str>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Img sr="arg7" ve="2"/>
+		</ButtonElement>
+		<ButtonElement sr="elements2" ve="3">
+			<clickTask>231</clickTask>
+			<flags>4</flags>
+			<geom>442,881,224,79,442,689,224,79</geom>
+			<Str sr="arg0" ve="3">Close</Str>
+			<Str sr="arg1" ve="3">Close</Str>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Img sr="arg7" ve="2"/>
+		</ButtonElement>
+		<TextElement sr="elements3" ve="3">
+			<flags>4</flags>
+			<geom>0,516,665,365,0,233,665,535</geom>
+			<Str sr="arg0" ve="3">TOS</Str>
+			<Str sr="arg1" ve="3">This program is distributed WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. You are free to distribute it further, unmodified.  Modified or otherwise,  the author takes no responsibility of any issues or possible issues arising from use or misuse this program.</Str>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<TextElement sr="elements4" ve="3">
+			<flags>4</flags>
+			<geom>0,54,665,316,0,54,665,292</geom>
+			<Str sr="arg0" ve="3">Credits</Str>
+			<Str sr="arg1" ve="3">This software is developed by 'theDNAse'. It uses &lt;a href="http://
+tasker.dinglisch.net" &gt;Tasker&lt;/a&gt; as its coding language. Without &lt;a href="https://play.google.com/store/apps/details?id=net.dinglisch.android.taskerm" &gt;Tasker (Google play link)&lt;/a&gt; and the &lt;a href="https://play.google.com/store/apps/details?id=net.dinglisch.android.appfactory" &gt;Tasker App Factory (Google play link)&lt;/a&gt;, this would never have been possible. A big thank you to members of tasker Google group and my all my friends for being the testers for this project and application.</Str>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="2"/>
+		</TextElement>
+		<TextElement sr="elements5" ve="3">
+			<flags>4</flags>
+			<geom>0,0,665,54,0,0,665,54</geom>
+			<Str sr="arg0" ve="3">Title</Str>
+			<Str sr="arg1" ve="3">&lt;b&gt;Tasker Battery Manager&lt;/b&gt;</Str>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="2"/>
+		</TextElement>
+		<TextElement sr="elements6" ve="3">
+			<flags>4</flags>
+			<geom>0,370,660,146,-1,-1,-1,-1</geom>
+			<Str sr="arg0" ve="3">Notice</Str>
+			<Str sr="arg1" ve="3">&lt;u&gt;&lt;b&gt;Notice&lt;/b&gt;&lt;/u&gt;: To fully utilize the capability of  TBM use Tasker and import the TBM profile instead.</Str>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="2"/>
+		</TextElement>
+		<PropertiesElement sr="props">
+			<Int sr="arg0" val="1"/>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#33000000</Str>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3">BatteryBotSettingsPopup</Str>
+			<Str sr="arg5" ve="3"/>
+			<Img sr="arg6" ve="2"/>
+			<Str sr="arg7" ve="3"/>
+		</PropertiesElement>
+	</Scene>
+	<Task sr="task143">
+		<cdate>1369019342736</cdate>
+		<edate>1386833797800</edate>
+		<id>143</id>
+		<nme>SetState</nme>
+		<Action sr="act0" ve="6">
+			<code>547</code>
+			<on>false</on>
+			<Str sr="arg0" ve="3">%BM_myWIFIState</Str>
+			<Str sr="arg1" ve="3">%BM_networkWIFIState</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act1" ve="6">
+			<code>547</code>
+			<on>false</on>
+			<Str sr="arg0" ve="3">%BM_myWIFIState</Str>
+			<Str sr="arg1" ve="3">%WIFI</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act2" ve="6">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%BM_myWIFIState</Str>
+			<Str sr="arg1" ve="3">on</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act3" ve="6">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%BM_networkDataState</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act4" ve="6">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%BM_myDataState</Str>
+			<Str sr="arg1" ve="3">%BM_networkDataState</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act5" ve="6">
+			<code>43</code>
+		</Action>
+		<Action sr="act6" ve="6">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%BM_myDataState</Str>
+			<Str sr="arg1" ve="3">on</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act7" ve="6">
+			<code>38</code>
+		</Action>
+	</Task>
+	<Task sr="task170">
+		<cdate>1367912514247</cdate>
+		<edate>1386590727854</edate>
+		<id>170</id>
+		<pri>10</pri>
+		<Action sr="act0" ve="6">
+			<code>130</code>
+			<on>false</on>
+			<Str sr="arg0" ve="3">HandleData</Str>
+			<Int sr="arg1" val="5"/>
+			<Str sr="arg2" ve="3">on</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act1" ve="6">
+			<code>159</code>
+			<Str sr="arg0" ve="3">DaySchedule</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act2" ve="6">
+			<code>159</code>
+			<Str sr="arg0" ve="3">ActiveNightSchedule</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act3" ve="6">
+			<code>137</code>
+			<Int sr="arg0" val="0"/>
+			<Str sr="arg1" ve="3">DayScheduleHandler</Str>
+		</Action>
+		<Action sr="act4" ve="6">
+			<code>137</code>
+			<Int sr="arg0" val="0"/>
+			<Str sr="arg1" ve="3">NightScheduleHandler</Str>
+		</Action>
+		<Action sr="act5" ve="6">
+			<code>137</code>
+			<Int sr="arg0" val="0"/>
+			<Str sr="arg1" ve="3">IsNetActive</Str>
+		</Action>
+		<Action sr="act6" ve="6">
+			<code>137</code>
+			<Int sr="arg0" val="0"/>
+			<Str sr="arg1" ve="3">IsNetReadyToOff</Str>
+		</Action>
+		<Action sr="act7" ve="6">
+			<code>130</code>
+			<Str sr="arg0" ve="3">HandleNet</Str>
+			<Int sr="arg1" val="5"/>
+			<Str sr="arg2" ve="3">on</Str>
+			<Str sr="arg3" ve="3">Screen</Str>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act8" ve="6">
+			<code>130</code>
+			<on>false</on>
+			<Str sr="arg0" ve="3">HandleNotif</Str>
+			<Int sr="arg1" val="10"/>
+			<Str sr="arg2" ve="3">on</Str>
+			<Str sr="arg3" ve="3">Screen</Str>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task172">
+		<cdate>1367912694961</cdate>
+		<edate>1386562627990</edate>
+		<id>172</id>
+		<pri>10</pri>
+		<rty>1</rty>
+		<Action sr="act0" ve="6">
+			<code>523</code>
+			<on>false</on>
+			<Str sr="arg0" ve="3">Display Off</Str>
+			<Str sr="arg1" ve="3"/>
+			<Img sr="arg2" ve="2"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Action sr="act1" ve="6">
+			<code>549</code>
+			<Str sr="arg0" ve="3">%BM_displayOn</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act10" ve="6">
+			<code>159</code>
+			<Str sr="arg0" ve="3">DaySchedule</Str>
+			<Int sr="arg1" val="1"/>
+		</Action>
+		<Action sr="act11" ve="6">
+			<code>43</code>
+		</Action>
+		<Action sr="act12" ve="6">
+			<code>159</code>
+			<Str sr="arg0" ve="3">ActiveNightSchedule</Str>
+			<Int sr="arg1" val="1"/>
+		</Action>
+		<Action sr="act13" ve="6">
+			<code>38</code>
+		</Action>
+		<Action sr="act14" ve="6">
+			<code>38</code>
+		</Action>
+		<Action sr="act15" ve="6">
+			<code>38</code>
+		</Action>
+		<Action sr="act16" ve="6">
+			<code>38</code>
+		</Action>
+		<Action sr="act2" ve="6">
+			<code>30</code>
+			<Int sr="arg0" val="0"/>
+			<Int sr="arg1" val="6"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act3" ve="6">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%BM_displayOn</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act4" ve="6">
+			<code>130</code>
+			<Str sr="arg0" ve="3">IsNetReadyToOff</Str>
+			<Int sr="arg1" val="10"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3">%is_ready</Str>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act5" ve="6">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%is_ready</lhs>
+					<op>2</op>
+					<rhs>Y</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act6" ve="6">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%BM_displayOn</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act7" ve="6">
+			<code>130</code>
+			<Str sr="arg0" ve="3">HandleNet</Str>
+			<Int sr="arg1" val="5"/>
+			<Str sr="arg2" ve="3">off</Str>
+			<Str sr="arg3" ve="3">Screen</Str>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act8" ve="6">
+			<code>130</code>
+			<on>false</on>
+			<Str sr="arg0" ve="3">HandleNotif</Str>
+			<Int sr="arg1" val="10"/>
+			<Str sr="arg2" ve="3">off</Str>
+			<Str sr="arg3" ve="3">Screen</Str>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act9" ve="6">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%BM_isDayTime</lhs>
+					<op>2</op>
+					<rhs>Y</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+	</Task>
+	<Task sr="task174">
+		<cdate>1367913334389</cdate>
+		<edate>1386304341112</edate>
+		<id>174</id>
+		<pri>10</pri>
+		<Action sr="act0" ve="6">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%BM_isDayTime</Str>
+			<Str sr="arg1" ve="3">Y</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act1" ve="6">
+			<code>159</code>
+			<on>false</on>
+			<Str sr="arg0" ve="3">DaySchedule</Str>
+			<Int sr="arg1" val="1"/>
+		</Action>
+		<Action sr="act2" ve="6">
+			<code>159</code>
+			<Str sr="arg0" ve="3">ActiveNightSchedule</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act3" ve="6">
+			<code>130</code>
+			<Str sr="arg0" ve="3">EnableCommonWatchers</Str>
+			<Int sr="arg1" val="10"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act4" ve="6">
+			<code>159</code>
+			<Str sr="arg0" ve="3">IsDataOn</Str>
+			<Int sr="arg1" val="1"/>
+		</Action>
+	</Task>
+	<Task sr="task176">
+		<cdate>1367913767013</cdate>
+		<edate>1394416848430</edate>
+		<id>176</id>
+		<nme>DayScheduleHandler</nme>
+		<pri>10</pri>
+		<Action sr="act0" ve="6">
+			<code>130</code>
+			<Str sr="arg0" ve="3">HandleNet</Str>
+			<Int sr="arg1" val="5"/>
+			<Str sr="arg2" ve="3">on</Str>
+			<Str sr="arg3" ve="3">Day Schedule</Str>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act1" ve="6">
+			<code>130</code>
+			<on>false</on>
+			<Str sr="arg0" ve="3">HandleNotif</Str>
+			<Int sr="arg1" val="10"/>
+			<Str sr="arg2" ve="3">on</Str>
+			<Str sr="arg3" ve="3">Day Schedule</Str>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act2" ve="6">
+			<code>130</code>
+			<on>false</on>
+			<Str sr="arg0" ve="3">HandleData</Str>
+			<Int sr="arg1" val="5"/>
+			<Str sr="arg2" ve="3">on</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act3" ve="6">
+			<code>523</code>
+			<on>false</on>
+			<Str sr="arg0" ve="3">In Schedule</Str>
+			<Str sr="arg1" ve="3"/>
+			<Img sr="arg2" ve="2"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Action sr="act4" ve="6">
+			<code>30</code>
+			<Int sr="arg0" val="0"/>
+			<Int sr="arg1" val="30"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act5" ve="6">
+			<code>130</code>
+			<Str sr="arg0" ve="3">HandleNet</Str>
+			<Int sr="arg1" val="5"/>
+			<Str sr="arg2" ve="3">off</Str>
+			<Str sr="arg3" ve="3">Day Schedule</Str>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act6" ve="6">
+			<code>130</code>
+			<on>false</on>
+			<Str sr="arg0" ve="3">HandleData</Str>
+			<Int sr="arg1" val="5"/>
+			<Str sr="arg2" ve="3">off</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act7" ve="6">
+			<code>130</code>
+			<on>false</on>
+			<Str sr="arg0" ve="3">HandleNotif</Str>
+			<Int sr="arg1" val="10"/>
+			<Str sr="arg2" ve="3">off</Str>
+			<Str sr="arg3" ve="3">Day Schedule</Str>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task178">
+		<cdate>1367913898581</cdate>
+		<edate>1386575625911</edate>
+		<id>178</id>
+		<nme>NightScheduleHandler</nme>
+		<Action sr="act0" ve="6">
+			<code>130</code>
+			<Str sr="arg0" ve="3">HandleNet</Str>
+			<Int sr="arg1" val="5"/>
+			<Str sr="arg2" ve="3">on</Str>
+			<Str sr="arg3" ve="3">Night Schedule</Str>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act1" ve="6">
+			<code>130</code>
+			<on>false</on>
+			<Str sr="arg0" ve="3">HandleNotif</Str>
+			<Int sr="arg1" val="10"/>
+			<Str sr="arg2" ve="3">on</Str>
+			<Str sr="arg3" ve="3">Night Schedule</Str>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act2" ve="6">
+			<code>130</code>
+			<on>false</on>
+			<Str sr="arg0" ve="3">HandleData</Str>
+			<Int sr="arg1" val="5"/>
+			<Str sr="arg2" ve="3">on</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act3" ve="6">
+			<code>30</code>
+			<Int sr="arg0" val="0"/>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act4" ve="6">
+			<code>130</code>
+			<Str sr="arg0" ve="3">HandleNet</Str>
+			<Int sr="arg1" val="5"/>
+			<Str sr="arg2" ve="3">off</Str>
+			<Str sr="arg3" ve="3">Night Schedule</Str>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act5" ve="6">
+			<code>130</code>
+			<on>false</on>
+			<Str sr="arg0" ve="3">HandleNotif</Str>
+			<Int sr="arg1" val="10"/>
+			<Str sr="arg2" ve="3">off</Str>
+			<Str sr="arg3" ve="3">Night Schedule</Str>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act6" ve="6">
+			<code>130</code>
+			<on>false</on>
+			<Str sr="arg0" ve="3">HandleData</Str>
+			<Int sr="arg1" val="5"/>
+			<Str sr="arg2" ve="3">off</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task179">
+		<cdate>1367914096029</cdate>
+		<edate>1385353359228</edate>
+		<id>179</id>
+		<nme>NightTime</nme>
+		<pri>10</pri>
+		<Action sr="act0" ve="6">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%isBM_inShutDown</lhs>
+					<op>3</op>
+					<rhs>Y</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act1" ve="6">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%BM_isDayTime</Str>
+			<Str sr="arg1" ve="3">N</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act2" ve="6">
+			<code>159</code>
+			<Str sr="arg0" ve="3">DaySchedule</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act3" ve="6">
+			<code>159</code>
+			<Str sr="arg0" ve="3">ActiveNightSchedule</Str>
+			<Int sr="arg1" val="1"/>
+		</Action>
+		<Action sr="act4" ve="6">
+			<code>130</code>
+			<Str sr="arg0" ve="3">EnableCommonWatchers</Str>
+			<Int sr="arg1" val="10"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act5" ve="6">
+			<code>159</code>
+			<Str sr="arg0" ve="3">IsDataOn</Str>
+			<Int sr="arg1" val="1"/>
+		</Action>
+		<Action sr="act6" ve="6">
+			<code>38</code>
+		</Action>
+	</Task>
+	<Task sr="task181">
+		<cdate>1367914355327</cdate>
+		<edate>1389234669466</edate>
+		<id>181</id>
+		<pri>10</pri>
+		<Action sr="act0" ve="6">
+			<code>548</code>
+			<Str sr="arg0" ve="3">Battery Too Low!</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act1" ve="6">
+			<code>11820</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.intangibleobject.securesettings.plugin.extra.BLURB>Mobile Data Disabled</com.intangibleobject.securesettings.plugin.extra.BLURB>
+					<com.intangibleobject.securesettings.plugin.extra.BLURB-type>java.lang.String</com.intangibleobject.securesettings.plugin.extra.BLURB-type>
+					<com.intangibleobject.securesettings.plugin.extra.ENABLED>false</com.intangibleobject.securesettings.plugin.extra.ENABLED>
+					<com.intangibleobject.securesettings.plugin.extra.ENABLED-type>java.lang.Boolean</com.intangibleobject.securesettings.plugin.extra.ENABLED-type>
+					<com.intangibleobject.securesettings.plugin.extra.SETTING>mobile_data</com.intangibleobject.securesettings.plugin.extra.SETTING>
+					<com.intangibleobject.securesettings.plugin.extra.SETTING-type>java.lang.String</com.intangibleobject.securesettings.plugin.extra.SETTING-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>Mobile Data Disabled</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.intangibleobject.securesettings.plugin</Str>
+			<Str sr="arg2" ve="3">Secure Settings</Str>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act2" ve="6">
+			<code>433</code>
+			<on>false</on>
+			<Int sr="arg0" val="0"/>
+		</Action>
+		<Action sr="act3" ve="6">
+			<code>425</code>
+			<Int sr="arg0" val="0"/>
+		</Action>
+		<Action sr="act4" ve="6">
+			<code>808</code>
+			<Int sr="arg0" val="0"/>
+		</Action>
+		<Action sr="act5" ve="6">
+			<code>822</code>
+			<Int sr="arg0" val="0"/>
+		</Action>
+		<Action sr="act6" ve="6">
+			<code>331</code>
+			<Int sr="arg0" val="0"/>
+		</Action>
+		<Action sr="act7" ve="6">
+			<code>810</code>
+			<Int sr="arg0" val="0"/>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="1"/>
+		</Action>
+		<Action sr="act8" ve="6">
+			<code>130</code>
+			<Str sr="arg0" ve="3">LockDataIntent</Str>
+			<Int sr="arg1" val="10"/>
+			<Str sr="arg2" ve="3">off</Str>
+			<Str sr="arg3" ve="3">Low Battery Monitor</Str>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task182">
+		<cdate>1367917179473</cdate>
+		<edate>1391393987840</edate>
+		<id>182</id>
+		<nme>HandleWifi</nme>
+		<pri>10</pri>
+		<Action sr="act0" ve="6">
+			<code>523</code>
+			<on>false</on>
+			<Str sr="arg0" ve="3">%BM_myWIFIState</Str>
+			<Str sr="arg1" ve="3">%BM_networkWIFIState</Str>
+			<Img sr="arg2" ve="2"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Action sr="act1" ve="6">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%WIFI</lhs>
+					<op>2</op>
+					<rhs>%BM_myWIFIState</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act10" ve="6">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%par1</lhs>
+					<op>2</op>
+					<rhs>on</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act11" ve="6">
+			<code>425</code>
+			<Int sr="arg0" val="1"/>
+		</Action>
+		<Action sr="act12" ve="6">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%BM_myWIFIState</Str>
+			<Str sr="arg1" ve="3">on</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act13" ve="6">
+			<code>43</code>
+		</Action>
+		<Action sr="act14" ve="6">
+			<code>425</code>
+			<Int sr="arg0" val="0"/>
+		</Action>
+		<Action sr="act15" ve="6">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%BM_myWIFIState</Str>
+			<Str sr="arg1" ve="3">off</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act16" ve="6">
+			<code>38</code>
+		</Action>
+		<Action sr="act17" ve="6">
+			<code>38</code>
+		</Action>
+		<Action sr="act2" ve="6">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%iswifimyctrl</Str>
+			<Str sr="arg1" ve="3">Y</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act3" ve="6">
+			<code>43</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%WIFI</lhs>
+					<op>2</op>
+					<rhs>on</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act4" ve="6">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%iswifimyctrl</Str>
+			<Str sr="arg1" ve="3">Y</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act5" ve="6">
+			<code>43</code>
+		</Action>
+		<Action sr="act6" ve="6">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%iswifimyctrl</Str>
+			<Str sr="arg1" ve="3">N</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act7" ve="6">
+			<code>126</code>
+			<Str sr="arg0" ve="3">%iswifimyctrl</Str>
+			<Int sr="arg1" val="1"/>
+		</Action>
+		<Action sr="act8" ve="6">
+			<code>38</code>
+		</Action>
+		<Action sr="act9" ve="6">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%iswifimyctrl</lhs>
+					<op>2</op>
+					<rhs>Y</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+	</Task>
+	<Task sr="task183">
+		<cdate>1385541139539</cdate>
+		<edate>1386588238182</edate>
+		<id>183</id>
+		<nme>LockDataIntent</nme>
+		<Action sr="act0" ve="6">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%par1</lhs>
+					<op>2</op>
+					<rhs>off</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act1" ve="6">
+			<code>549</code>
+			<Str sr="arg0" ve="3">%BM_DataOnLock</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act10" ve="6">
+			<code>548</code>
+			<Str sr="arg0" ve="3">Request for net '%par1' received from %par2</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act2" ve="6">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%BM_DataOffLock</Str>
+			<Str sr="arg1" ve="3">Y</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act3" ve="6">
+			<code>130</code>
+			<Str sr="arg0" ve="3">HandleNet</Str>
+			<Int sr="arg1" val="10"/>
+			<Str sr="arg2" ve="3">off</Str>
+			<Str sr="arg3" ve="3">Intent:%par2</Str>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act4" ve="6">
+			<code>43</code>
+		</Action>
+		<Action sr="act5" ve="6">
+			<code>547</code>
+			<on>false</on>
+			<Str sr="arg0" ve="3">%BM_DataOnLock</Str>
+			<Str sr="arg1" ve="3">%BM_DataOnLock,%par2,</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act6" ve="6">
+			<code>549</code>
+			<Str sr="arg0" ve="3">%BM_DataOffLock</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act7" ve="6">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%BM_DataOnLock</Str>
+			<Str sr="arg1" ve="3">Y</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act8" ve="6">
+			<code>130</code>
+			<Str sr="arg0" ve="3">HandleNet</Str>
+			<Int sr="arg1" val="10"/>
+			<Str sr="arg2" ve="3">on</Str>
+			<Str sr="arg3" ve="3">Intent:%par2</Str>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act9" ve="6">
+			<code>38</code>
+		</Action>
+	</Task>
+	<Task sr="task184">
+		<cdate>1367919685126</cdate>
+		<edate>1402970148300</edate>
+		<id>184</id>
+		<nme>EnableBatteryManager</nme>
+		<pri>10</pri>
+		<Action sr="act0" ve="6">
+			<code>130</code>
+			<Str sr="arg0" ve="3">ResetBatteryManager</Str>
+			<Int sr="arg1" val="10"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act1" ve="6">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%isBM_inShutDown</Str>
+			<Str sr="arg1" ve="3">N</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act10" ve="6">
+			<code>523</code>
+			<on>false</on>
+			<Str sr="arg0" ve="3">TBM</Str>
+			<Str sr="arg1" ve="3">Active, day: %BM_isDayTime</Str>
+			<Img sr="arg2" ve="2">
+				<nme>hd_aaa_ext_bulb</nme>
+			</Img>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="1"/>
+			<Int sr="arg5" val="3"/>
+			<ListElementItem sr="item0">
+				<label>Disable</label>
+				<Action sr="action" ve="6">
+					<code>130</code>
+					<Str sr="arg0" ve="3">ResetBatteryManager</Str>
+					<Int sr="arg1" val="10"/>
+					<Str sr="arg2" ve="3"/>
+					<Str sr="arg3" ve="3"/>
+					<Str sr="arg4" ve="3"/>
+					<Int sr="arg5" val="0"/>
+				</Action>
+				<Img sr="icon" ve="2">
+					<nme>hd_ab_content_remove</nme>
+				</Img>
+			</ListElementItem>
+			<ListElementItem sr="item1">
+				<label>Screen Rotate</label>
+				<Action sr="action" ve="6">
+					<code>822</code>
+					<Int sr="arg0" val="2"/>
+				</Action>
+				<Img sr="icon" ve="2">
+					<nme>hd_av_replay</nme>
+				</Img>
+			</ListElementItem>
+		</Action>
+		<Action sr="act11" ve="6">
+			<code>130</code>
+			<Str sr="arg0" ve="3">HandleNotif</Str>
+			<Int sr="arg1" val="10"/>
+			<Str sr="arg2" ve="3">?</Str>
+			<Str sr="arg3" ve="3">?</Str>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act2" ve="6">
+			<code>547</code>
+			<on>false</on>
+			<Str sr="arg0" ve="3">%BM_DataOnLock</Str>
+			<Str sr="arg1" ve="3">,</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act3" ve="6">
+			<code>159</code>
+			<Str sr="arg0" ve="3">BatteryManager</Str>
+			<Int sr="arg1" val="1"/>
+		</Action>
+		<Action sr="act4" ve="6">
+			<code>547</code>
+			<on>false</on>
+			<Str sr="arg0" ve="3">%BM_networkWIFIState</Str>
+			<Str sr="arg1" ve="3">%WIFI</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act5" ve="6">
+			<code>425</code>
+			<Int sr="arg0" val="0"/>
+		</Action>
+		<Action sr="act6" ve="6">
+			<code>30</code>
+			<Int sr="arg0" val="0"/>
+			<Int sr="arg1" val="1"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act7" ve="6">
+			<code>130</code>
+			<Str sr="arg0" ve="3">SetState</Str>
+			<Int sr="arg1" val="10"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act8" ve="6">
+			<code>130</code>
+			<Str sr="arg0" ve="3">NightTime</Str>
+			<Int sr="arg1" val="5"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%BM_isDayTime</lhs>
+					<op>3</op>
+					<rhs>Y</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act9" ve="6">
+			<code>35</code>
+			<Int sr="arg0" val="0"/>
+			<Int sr="arg1" val="2"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%BM_isDayTime</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+	</Task>
+	<Task sr="task186">
+		<cdate>1367928045610</cdate>
+		<edate>1386654698334</edate>
+		<id>186</id>
+		<Action sr="act0" ve="6">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%BM_networkDataState</Str>
+			<Str sr="arg1" ve="3">on</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task187">
+		<cdate>1367930192384</cdate>
+		<edate>1386936162472</edate>
+		<id>187</id>
+		<nme>HandleData</nme>
+		<pri>10</pri>
+		<Action sr="act0" ve="6">
+			<code>523</code>
+			<on>false</on>
+			<Str sr="arg0" ve="3">Handling Data</Str>
+			<Str sr="arg1" ve="3"/>
+			<Img sr="arg2" ve="2"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Action sr="act1" ve="6">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%BM_networkDataState</lhs>
+					<op>2</op>
+					<rhs>%BM_myDataState</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act10" ve="6">
+			<code>523</code>
+			<on>false</on>
+			<Str sr="arg0" ve="3">%isdatamyctrl</Str>
+			<Str sr="arg1" ve="3">%par1</Str>
+			<Img sr="arg2" ve="2"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Action sr="act11" ve="6">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%isdatamyctrl</lhs>
+					<op>2</op>
+					<rhs>Y</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act12" ve="6">
+			<code>523</code>
+			<on>false</on>
+			<Str sr="arg0" ve="3">DATA was ON</Str>
+			<Str sr="arg1" ve="3"/>
+			<Img sr="arg2" ve="2"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Action sr="act13" ve="6">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%par1</lhs>
+					<op>2</op>
+					<rhs>on</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act14" ve="6">
+			<code>433</code>
+			<on>false</on>
+			<Int sr="arg0" val="1"/>
+		</Action>
+		<Action sr="act15" ve="6">
+			<code>11820</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.intangibleobject.securesettings.plugin.extra.BLURB>Mobile Data Enabled</com.intangibleobject.securesettings.plugin.extra.BLURB>
+					<com.intangibleobject.securesettings.plugin.extra.BLURB-type>java.lang.String</com.intangibleobject.securesettings.plugin.extra.BLURB-type>
+					<com.intangibleobject.securesettings.plugin.extra.ENABLED>true</com.intangibleobject.securesettings.plugin.extra.ENABLED>
+					<com.intangibleobject.securesettings.plugin.extra.ENABLED-type>java.lang.Boolean</com.intangibleobject.securesettings.plugin.extra.ENABLED-type>
+					<com.intangibleobject.securesettings.plugin.extra.SETTING>mobile_data</com.intangibleobject.securesettings.plugin.extra.SETTING>
+					<com.intangibleobject.securesettings.plugin.extra.SETTING-type>java.lang.String</com.intangibleobject.securesettings.plugin.extra.SETTING-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>Mobile Data Enabled</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.intangibleobject.securesettings.plugin</Str>
+			<Str sr="arg2" ve="3">Secure Settings</Str>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act16" ve="6">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%BM_myDataState</Str>
+			<Str sr="arg1" ve="3">on</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act17" ve="6">
+			<code>43</code>
+		</Action>
+		<Action sr="act18" ve="6">
+			<code>433</code>
+			<on>false</on>
+			<Int sr="arg0" val="0"/>
+		</Action>
+		<Action sr="act19" ve="6">
+			<code>11820</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.intangibleobject.securesettings.plugin.extra.BLURB>Mobile Data Disabled</com.intangibleobject.securesettings.plugin.extra.BLURB>
+					<com.intangibleobject.securesettings.plugin.extra.BLURB-type>java.lang.String</com.intangibleobject.securesettings.plugin.extra.BLURB-type>
+					<com.intangibleobject.securesettings.plugin.extra.ENABLED>false</com.intangibleobject.securesettings.plugin.extra.ENABLED>
+					<com.intangibleobject.securesettings.plugin.extra.ENABLED-type>java.lang.Boolean</com.intangibleobject.securesettings.plugin.extra.ENABLED-type>
+					<com.intangibleobject.securesettings.plugin.extra.SETTING>mobile_data</com.intangibleobject.securesettings.plugin.extra.SETTING>
+					<com.intangibleobject.securesettings.plugin.extra.SETTING-type>java.lang.String</com.intangibleobject.securesettings.plugin.extra.SETTING-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>Mobile Data Disabled</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.intangibleobject.securesettings.plugin</Str>
+			<Str sr="arg2" ve="3">Secure Settings</Str>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act2" ve="6">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%isdatamyctrl</Str>
+			<Str sr="arg1" ve="3">Y</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act20" ve="6">
+			<code>525</code>
+			<on>false</on>
+			<Str sr="arg0" ve="3">Data Off</Str>
+			<Str sr="arg1" ve="3"/>
+			<Img sr="arg2" ve="2"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="5"/>
+			<Int sr="arg5" val="500"/>
+			<Int sr="arg6" val="3"/>
+		</Action>
+		<Action sr="act21" ve="6">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%BM_myDataState</Str>
+			<Str sr="arg1" ve="3">off</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act22" ve="6">
+			<code>38</code>
+		</Action>
+		<Action sr="act23" ve="6">
+			<code>38</code>
+		</Action>
+		<Action sr="act3" ve="6">
+			<code>43</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%BM_networkDataState</lhs>
+					<op>2</op>
+					<rhs>on</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act4" ve="6">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%isdatamyctrl</Str>
+			<Str sr="arg1" ve="3">Y</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act5" ve="6">
+			<code>43</code>
+		</Action>
+		<Action sr="act6" ve="6">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%isdatamyctrl</Str>
+			<Str sr="arg1" ve="3">N</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act7" ve="6">
+			<code>523</code>
+			<on>false</on>
+			<Str sr="arg0" ve="3">%isdatamyctrl</Str>
+			<Str sr="arg1" ve="3">%BM_myDataState, %BM_networkDataState</Str>
+			<Img sr="arg2" ve="2"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Action sr="act8" ve="6">
+			<code>126</code>
+			<Str sr="arg0" ve="3">%isdatamyctrl</Str>
+			<Int sr="arg1" val="1"/>
+		</Action>
+		<Action sr="act9" ve="6">
+			<code>38</code>
+		</Action>
+	</Task>
+	<Task sr="task188">
+		<cdate>1367979879437</cdate>
+		<edate>1397374014130</edate>
+		<id>188</id>
+		<nme>ResetBatteryManager</nme>
+		<pri>10</pri>
+		<Action sr="act0" ve="6">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%isBM_inShutDown</Str>
+			<Str sr="arg1" ve="3">Y</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act1" ve="6">
+			<code>159</code>
+			<Str sr="arg0" ve="3">BatteryManager</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act10" ve="6">
+			<code>549</code>
+			<Str sr="arg0" ve="3">%BM_*</Str>
+			<Int sr="arg1" val="1"/>
+		</Action>
+		<Action sr="act11" ve="6">
+			<code>549</code>
+			<on>false</on>
+			<Str sr="arg0" ve="3">%BM_isDayTime</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act12" ve="6">
+			<code>549</code>
+			<on>false</on>
+			<Str sr="arg0" ve="3">%BM_myDataState</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act13" ve="6">
+			<code>549</code>
+			<on>false</on>
+			<Str sr="arg0" ve="3">%BM_myWIFIState</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act14" ve="6">
+			<code>549</code>
+			<on>false</on>
+			<Str sr="arg0" ve="3">%BM_networkDataState</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act15" ve="6">
+			<code>547</code>
+			<on>false</on>
+			<Str sr="arg0" ve="3">%BM_networkDataState</Str>
+			<Str sr="arg1" ve="3">N</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act16" ve="6">
+			<code>779</code>
+			<Str sr="arg0" ve="3">TBM</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act2" ve="6">
+			<code>159</code>
+			<Str sr="arg0" ve="3">DaySchedule</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act3" ve="6">
+			<code>159</code>
+			<Str sr="arg0" ve="3">ActiveNightSchedule</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act4" ve="6">
+			<code>159</code>
+			<Str sr="arg0" ve="3">DisplayUnlocked</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act5" ve="6">
+			<code>159</code>
+			<Str sr="arg0" ve="3">DisplayOff</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act6" ve="6">
+			<code>159</code>
+			<Str sr="arg0" ve="3">LowBatteryMonitor</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act7" ve="6">
+			<code>159</code>
+			<Str sr="arg0" ve="3">IsDataOn</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act8" ve="6">
+			<code>159</code>
+			<Str sr="arg0" ve="3">DisplayOn</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act9" ve="6">
+			<code>159</code>
+			<Str sr="arg0" ve="3">StartBatteryBot</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task189">
+		<cdate>1367996887720</cdate>
+		<edate>1385611776760</edate>
+		<id>189</id>
+		<nme>EnableCommonWatchers</nme>
+		<pri>10</pri>
+		<Action sr="act0" ve="6">
+			<code>159</code>
+			<Str sr="arg0" ve="3">DisplayUnlocked</Str>
+			<Int sr="arg1" val="1"/>
+		</Action>
+		<Action sr="act1" ve="6">
+			<code>159</code>
+			<Str sr="arg0" ve="3">DisplayOff</Str>
+			<Int sr="arg1" val="1"/>
+		</Action>
+		<Action sr="act2" ve="6">
+			<code>159</code>
+			<Str sr="arg0" ve="3">DisplayOn</Str>
+			<Int sr="arg1" val="1"/>
+		</Action>
+		<Action sr="act3" ve="6">
+			<code>159</code>
+			<Str sr="arg0" ve="3">StartBatteryBot</Str>
+			<Int sr="arg1" val="1"/>
+		</Action>
+		<Action sr="act4" ve="6">
+			<code>159</code>
+			<Str sr="arg0" ve="3">LowBatteryMonitor</Str>
+			<Int sr="arg1" val="1"/>
+		</Action>
+	</Task>
+	<Task sr="task190">
+		<cdate>1367997025958</cdate>
+		<edate>1386856868666</edate>
+		<id>190</id>
+		<nme>HandleNet</nme>
+		<pri>10</pri>
+		<Action sr="act0" ve="6">
+			<code>523</code>
+			<on>false</on>
+			<Str sr="arg0" ve="3">%par1</Str>
+			<Str sr="arg1" ve="3"/>
+			<Img sr="arg2" ve="2"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Action sr="act1" ve="6">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%par1</lhs>
+					<op>2</op>
+					<rhs>off</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act10" ve="6">
+			<code>43</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%BM_DataOffLock</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act11" ve="6">
+			<code>130</code>
+			<Str sr="arg0" ve="3">HandleData</Str>
+			<Int sr="arg1" val="10"/>
+			<Str sr="arg2" ve="3">%par1</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3">%isdatamyctrl</Str>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act12" ve="6">
+			<code>130</code>
+			<Str sr="arg0" ve="3">HandleWifi</Str>
+			<Int sr="arg1" val="10"/>
+			<Str sr="arg2" ve="3">%par1</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3">%iswifimyctrl</Str>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act13" ve="6">
+			<code>130</code>
+			<Str sr="arg0" ve="3">HandleNotif</Str>
+			<Int sr="arg1" val="10"/>
+			<Str sr="arg2" ve="3">%par1</Str>
+			<Str sr="arg3" ve="3">%par2</Str>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act14" ve="6">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%iswifimyctrl</lhs>
+					<op>2</op>
+					<rhs>N</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act15" ve="6">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%isdatamyctrl</lhs>
+					<op>2</op>
+					<rhs>N</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act16" ve="6">
+			<code>130</code>
+			<Str sr="arg0" ve="3">HandleNotif</Str>
+			<Int sr="arg1" val="10"/>
+			<Str sr="arg2" ve="3">off</Str>
+			<Str sr="arg3" ve="3">User?</Str>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act17" ve="6">
+			<code>38</code>
+		</Action>
+		<Action sr="act18" ve="6">
+			<code>38</code>
+		</Action>
+		<Action sr="act19" ve="6">
+			<code>38</code>
+		</Action>
+		<Action sr="act2" ve="6">
+			<code>523</code>
+			<on>false</on>
+			<Str sr="arg0" ve="3">%BM_DataOnLock</Str>
+			<Str sr="arg1" ve="3"/>
+			<Img sr="arg2" ve="2"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Action sr="act3" ve="6">
+			<code>37</code>
+			<on>false</on>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%BM_DataOnLock</lhs>
+					<op>4</op>
+					<rhs>^[, ]+$</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act4" ve="6">
+			<code>38</code>
+			<on>false</on>
+		</Action>
+		<Action sr="act5" ve="6">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%BM_DataOnLock</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act6" ve="6">
+			<code>130</code>
+			<Str sr="arg0" ve="3">HandleData</Str>
+			<Int sr="arg1" val="10"/>
+			<Str sr="arg2" ve="3">%par1</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act7" ve="6">
+			<code>130</code>
+			<Str sr="arg0" ve="3">HandleWifi</Str>
+			<Int sr="arg1" val="10"/>
+			<Str sr="arg2" ve="3">%par1</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act8" ve="6">
+			<code>130</code>
+			<Str sr="arg0" ve="3">HandleNotif</Str>
+			<Int sr="arg1" val="10"/>
+			<Str sr="arg2" ve="3">%par1</Str>
+			<Str sr="arg3" ve="3">%par2</Str>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act9" ve="6">
+			<code>38</code>
+		</Action>
+	</Task>
+	<Task sr="task198">
+		<cdate>1385357543880</cdate>
+		<edate>1385364513694</edate>
+		<id>198</id>
+		<nme>RestartBatteryMgr</nme>
+		<pri>10</pri>
+		<Action sr="act0" ve="6">
+			<code>130</code>
+			<Str sr="arg0" ve="3">ResetBatteryManager</Str>
+			<Int sr="arg1" val="10"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act1" ve="6">
+			<code>130</code>
+			<Str sr="arg0" ve="3">EnableBatteryManager</Str>
+			<Int sr="arg1" val="10"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task199">
+		<cdate>1385557013839</cdate>
+		<edate>1386590833679</edate>
+		<id>199</id>
+		<nme>ReleaseDataLockIntent</nme>
+		<pri>10</pri>
+		<Action sr="act0" ve="6">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%par1</lhs>
+					<op>2</op>
+					<rhs>off</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act1" ve="6">
+			<code>549</code>
+			<Str sr="arg0" ve="3">%BM_DataOffLock</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act2" ve="6">
+			<code>598</code>
+			<on>false</on>
+			<Str sr="arg0" ve="3">%BM_DataOnLock</Str>
+			<Str sr="arg1" ve="3">,%par2, </Str>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="1"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3"> </Str>
+		</Action>
+		<Action sr="act3" ve="6">
+			<code>43</code>
+		</Action>
+		<Action sr="act4" ve="6">
+			<code>549</code>
+			<Str sr="arg0" ve="3">%BM_DataOnLock</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act5" ve="6">
+			<code>38</code>
+		</Action>
+		<Action sr="act6" ve="6">
+			<code>548</code>
+			<Str sr="arg0" ve="3">Releasing data '%par1' lock by '%par2'</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task201">
+		<cdate>1385604694912</cdate>
+		<edate>1386217368484</edate>
+		<id>201</id>
+		<rty>1</rty>
+		<Action sr="act0" ve="6">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%BM_displayOn</Str>
+			<Str sr="arg1" ve="3">Y</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task203">
+		<cdate>1385383369735</cdate>
+		<edate>1385602206583</edate>
+		<id>203</id>
+		<pri>10</pri>
+		<Action sr="act0" ve="6">
+			<code>30</code>
+			<Int sr="arg0" val="0"/>
+			<Int sr="arg1" val="10"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act1" ve="6">
+			<code>130</code>
+			<Str sr="arg0" ve="3">EnableBatteryManager</Str>
+			<Int sr="arg1" val="10"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task213">
+		<cdate>1386206484439</cdate>
+		<edate>1394070665537</edate>
+		<id>213</id>
+		<nme>CheckNetTransfers</nme>
+		<pri>10</pri>
+		<Action sr="act0" ve="6">
+			<code>416</code>
+			<Str sr="arg0" ve="3">/proc/self/net/dev</Str>
+			<Str sr="arg1" ve="3">1</Str>
+			<Str sr="arg2" ve="3">%tet</Str>
+		</Action>
+		<Action sr="act1" ve="6">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%new_line</Str>
+			<Str sr="arg1" ve="3">
+</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act10" ve="6">
+			<code>596</code>
+			<Str sr="arg0" ve="3">%line2</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">%line2</Str>
+		</Action>
+		<Action sr="act11" ve="6">
+			<code>888</code>
+			<Str sr="arg0" ve="3">%rxb</Str>
+			<Int sr="arg1">
+				<var>%line2</var>
+			</Int>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act12" ve="6">
+			<code>523</code>
+			<on>false</on>
+			<Str sr="arg0" ve="3">%rxb</Str>
+			<Str sr="arg1" ve="3"/>
+			<Img sr="arg2" ve="2"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%rxb</lhs>
+					<op>4</op>
+					<rhs>\D</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act13" ve="6">
+			<code>596</code>
+			<Str sr="arg0" ve="3">%line10</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">%line10</Str>
+		</Action>
+		<Action sr="act14" ve="6">
+			<code>888</code>
+			<Str sr="arg0" ve="3">%txb</Str>
+			<Int sr="arg1">
+				<var>%line10</var>
+			</Int>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act15" ve="6">
+			<code>40</code>
+		</Action>
+		<Action sr="act16" ve="6">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%totalb</Str>
+			<Str sr="arg1" ve="3">%rxb+%txb</Str>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act17" ve="6">
+			<code>523</code>
+			<on>false</on>
+			<Str sr="arg0" ve="3">%totalb</Str>
+			<Str sr="arg1" ve="3"/>
+			<Img sr="arg2" ve="2"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Action sr="act18" ve="6">
+			<code>126</code>
+			<Str sr="arg0" ve="3">%totalb</Str>
+			<Int sr="arg1" val="1"/>
+		</Action>
+		<Action sr="act2" ve="6">
+			<code>590</code>
+			<Str sr="arg0" ve="3">%tet</Str>
+			<Str sr="arg1" ve="3">%new_line</Str>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act3" ve="6">
+			<code>547</code>
+			<on>false</on>
+			<Str sr="arg0" ve="3">%rxb</Str>
+			<Str sr="arg1" ve="3">0</Str>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act4" ve="6">
+			<code>547</code>
+			<on>false</on>
+			<Str sr="arg0" ve="3">%txb</Str>
+			<Str sr="arg1" ve="3">0</Str>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act5" ve="6">
+			<code>39</code>
+			<Str sr="arg0" ve="3">%line</Str>
+			<Str sr="arg1" ve="3">%tet(3:)</Str>
+		</Action>
+		<Action sr="act6" ve="6">
+			<code>590</code>
+			<Str sr="arg0" ve="3">%line</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act7" ve="6">
+			<code>547</code>
+			<on>false</on>
+			<Str sr="arg0" ve="3">%line2</Str>
+			<Str sr="arg1" ve="3">.0</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="1"/>
+		</Action>
+		<Action sr="act8" ve="6">
+			<code>547</code>
+			<on>false</on>
+			<Str sr="arg0" ve="3">%line2</Str>
+			<Str sr="arg1" ve="3">round(%line2)</Str>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act9" ve="6">
+			<code>523</code>
+			<on>false</on>
+			<Str sr="arg0" ve="3">%line2</Str>
+			<Str sr="arg1" ve="3"/>
+			<Img sr="arg2" ve="2"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+	</Task>
+	<Task sr="task214">
+		<cdate>1386209165112</cdate>
+		<edate>1394071494610</edate>
+		<id>214</id>
+		<nme>IsNetActive</nme>
+		<Action sr="act0" ve="6">
+			<code>130</code>
+			<Str sr="arg0" ve="3">CheckNetTransfers</Str>
+			<Int sr="arg1" val="10"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3">%data1</Str>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act1" ve="6">
+			<code>37</code>
+			<on>false</on>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%par1</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act10" ve="6">
+			<code>126</code>
+			<on>false</on>
+			<Str sr="arg0" ve="3">%data1</Str>
+			<Int sr="arg1" val="1"/>
+		</Action>
+		<Action sr="act11" ve="6">
+			<code>126</code>
+			<Str sr="arg0" ve="3">Y</Str>
+			<Int sr="arg1" val="1"/>
+		</Action>
+		<Action sr="act12" ve="6">
+			<code>43</code>
+		</Action>
+		<Action sr="act13" ve="6">
+			<code>126</code>
+			<Str sr="arg0" ve="3">N</Str>
+			<Int sr="arg1" val="1"/>
+		</Action>
+		<Action sr="act14" ve="6">
+			<code>38</code>
+		</Action>
+		<Action sr="act2" ve="6">
+			<code>43</code>
+			<on>false</on>
+		</Action>
+		<Action sr="act3" ve="6">
+			<code>547</code>
+			<on>false</on>
+			<Str sr="arg0" ve="3">%data1</Str>
+			<Str sr="arg1" ve="3">%par1</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act4" ve="6">
+			<code>38</code>
+			<on>false</on>
+		</Action>
+		<Action sr="act5" ve="6">
+			<code>30</code>
+			<Int sr="arg0" val="0"/>
+			<Int sr="arg1" val="15"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act6" ve="6">
+			<code>130</code>
+			<Str sr="arg0" ve="3">CheckNetTransfers</Str>
+			<Int sr="arg1" val="10"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3">%data2</Str>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act7" ve="6">
+			<code>890</code>
+			<Str sr="arg0" ve="3">%data2</Str>
+			<Int sr="arg1">
+				<var>%data1</var>
+			</Int>
+		</Action>
+		<Action sr="act8" ve="6">
+			<code>547</code>
+			<on>false</on>
+			<Str sr="arg0" ve="3">%data2</Str>
+			<Str sr="arg1" ve="3">%data2/1024</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act9" ve="6">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%data2</lhs>
+					<op>7</op>
+					<rhs>10</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+	</Task>
+	<Task sr="task215">
+		<cdate>1386209780526</cdate>
+		<edate>1386229167153</edate>
+		<id>215</id>
+		<nme>IsNetReadyToOff</nme>
+		<pri>10</pri>
+		<rty>1</rty>
+		<Action sr="act0" ve="6">
+			<code>130</code>
+			<label>do</label>
+			<Str sr="arg0" ve="3">IsNetActive</Str>
+			<Int sr="arg1" val="10"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3">%active</Str>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act1" ve="6">
+			<code>523</code>
+			<on>false</on>
+			<Str sr="arg0" ve="3">In Loop: %active</Str>
+			<Str sr="arg1" ve="3"/>
+			<Img sr="arg2" ve="2"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Action sr="act2" ve="6">
+			<code>135</code>
+			<Int sr="arg0" val="1"/>
+			<Int sr="arg1" val="1"/>
+			<Str sr="arg2" ve="3">do</Str>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%active</lhs>
+					<op>3</op>
+					<rhs>N</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act3" ve="6">
+			<code>126</code>
+			<Str sr="arg0" ve="3">Y</Str>
+			<Int sr="arg1" val="1"/>
+		</Action>
+		<Action sr="act4" ve="6">
+			<code>523</code>
+			<on>false</on>
+			<Str sr="arg0" ve="3">%active</Str>
+			<Str sr="arg1" ve="3"/>
+			<Img sr="arg2" ve="2"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+	</Task>
+	<Task sr="task219">
+		<cdate>1386555766893</cdate>
+		<edate>1391783518546</edate>
+		<id>219</id>
+		<nme>HandleNotif</nme>
+		<pri>10</pri>
+		<Action sr="act0" ve="6">
+			<code>523</code>
+			<Str sr="arg0" ve="3">TBM</Str>
+			<Str sr="arg1" ve="3">data: %par1, cause: %par2</Str>
+			<Img sr="arg2" ve="2">
+				<nme>hd_aaa_ext_bulb</nme>
+			</Img>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="1"/>
+			<Int sr="arg5" val="3"/>
+			<ListElementItem sr="item0">
+				<label>Bluetooth</label>
+				<Action sr="action" ve="6">
+					<code>218</code>
+				</Action>
+				<Img sr="icon" ve="2">
+					<nme>hd_device_access_bluetooth</nme>
+				</Img>
+			</ListElementItem>
+			<ListElementItem sr="item1">
+				<label>Screen Rotation</label>
+				<Action sr="action" ve="6">
+					<code>822</code>
+					<Int sr="arg0" val="2"/>
+				</Action>
+				<Img sr="icon" ve="2">
+					<nme>hd_av_replay</nme>
+				</Img>
+			</ListElementItem>
+			<ListElementItem sr="item2">
+				<label>Battery</label>
+				<Action sr="action" ve="6">
+					<code>11820</code>
+					<Bundle sr="arg0">
+						<Vals sr="val">
+							<com.intangibleobject.securesettings.plugin.extra.BLURB>Settings - [Battery] .fuelgauge.PowerUsageSummary</com.intangibleobject.securesettings.plugin.extra.BLURB>
+							<com.intangibleobject.securesettings.plugin.extra.BLURB-type>java.lang.String</com.intangibleobject.securesettings.plugin.extra.BLURB-type>
+							<com.intangibleobject.securesettings.plugin.extra.EXTRA_SPINNER_OPTION>com.android.settings.fuelgauge.PowerUsageSummary</com.intangibleobject.securesettings.plugin.extra.EXTRA_SPINNER_OPTION>
+							<com.intangibleobject.securesettings.plugin.extra.EXTRA_SPINNER_OPTION-type>java.lang.String</com.intangibleobject.securesettings.plugin.extra.EXTRA_SPINNER_OPTION-type>
+							<com.intangibleobject.securesettings.plugin.extra.PACKAGE_NAME>com.android.settings</com.intangibleobject.securesettings.plugin.extra.PACKAGE_NAME>
+							<com.intangibleobject.securesettings.plugin.extra.PACKAGE_NAME-type>java.lang.String</com.intangibleobject.securesettings.plugin.extra.PACKAGE_NAME-type>
+							<com.intangibleobject.securesettings.plugin.extra.SETTING>launch_activity</com.intangibleobject.securesettings.plugin.extra.SETTING>
+							<com.intangibleobject.securesettings.plugin.extra.SETTING-type>java.lang.String</com.intangibleobject.securesettings.plugin.extra.SETTING-type>
+							<com.twofortyfouram.locale.intent.extra.BLURB>Settings - [Battery] .fuelgauge.PowerUsageSummary</com.twofortyfouram.locale.intent.extra.BLURB>
+							<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+							<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+							<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+						</Vals>
+					</Bundle>
+					<Str sr="arg1" ve="3">com.intangibleobject.securesettings.plugin</Str>
+					<Str sr="arg2" ve="3">Secure Settings</Str>
+					<Int sr="arg3" val="0"/>
+				</Action>
+				<Img sr="icon" ve="2">
+					<nme>hd_device_access_battery</nme>
+				</Img>
+			</ListElementItem>
+		</Action>
+	</Task>
+	<Task sr="task220">
+		<cdate>1367997025958</cdate>
+		<edate>1386688864210</edate>
+		<id>220</id>
+		<nme>HandleNet_bkp</nme>
+		<pri>10</pri>
+		<Action sr="act0" ve="6">
+			<code>523</code>
+			<on>false</on>
+			<Str sr="arg0" ve="3">%par1</Str>
+			<Str sr="arg1" ve="3"/>
+			<Img sr="arg2" ve="2"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Action sr="act1" ve="6">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%par1</lhs>
+					<op>2</op>
+					<rhs>off</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act10" ve="6">
+			<code>43</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%BM_DataOffLock</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act11" ve="6">
+			<code>130</code>
+			<Str sr="arg0" ve="3">HandleWifi</Str>
+			<Int sr="arg1" val="10"/>
+			<Str sr="arg2" ve="3">%par1</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3">%iswifimyctrl</Str>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act12" ve="6">
+			<code>130</code>
+			<Str sr="arg0" ve="3">HandleData</Str>
+			<Int sr="arg1" val="10"/>
+			<Str sr="arg2" ve="3">%par1</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3">%isdatamyctrl</Str>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act13" ve="6">
+			<code>130</code>
+			<Str sr="arg0" ve="3">HandleNotif</Str>
+			<Int sr="arg1" val="10"/>
+			<Str sr="arg2" ve="3">%par1</Str>
+			<Str sr="arg3" ve="3">%par2</Str>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act14" ve="6">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%iswifimyctrl</lhs>
+					<op>2</op>
+					<rhs>N</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act15" ve="6">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%isdatamyctrl</lhs>
+					<op>2</op>
+					<rhs>N</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act16" ve="6">
+			<code>130</code>
+			<Str sr="arg0" ve="3">HandleNotif</Str>
+			<Int sr="arg1" val="10"/>
+			<Str sr="arg2" ve="3">off</Str>
+			<Str sr="arg3" ve="3">user</Str>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act17" ve="6">
+			<code>38</code>
+		</Action>
+		<Action sr="act18" ve="6">
+			<code>38</code>
+		</Action>
+		<Action sr="act19" ve="6">
+			<code>38</code>
+		</Action>
+		<Action sr="act2" ve="6">
+			<code>523</code>
+			<on>false</on>
+			<Str sr="arg0" ve="3">%BM_DataOnLock</Str>
+			<Str sr="arg1" ve="3"/>
+			<Img sr="arg2" ve="2"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Action sr="act3" ve="6">
+			<code>37</code>
+			<on>false</on>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%BM_DataOnLock</lhs>
+					<op>4</op>
+					<rhs>^[, ]+$</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act4" ve="6">
+			<code>38</code>
+			<on>false</on>
+		</Action>
+		<Action sr="act5" ve="6">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%BM_DataOnLock</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act6" ve="6">
+			<code>130</code>
+			<Str sr="arg0" ve="3">HandleWifi</Str>
+			<Int sr="arg1" val="10"/>
+			<Str sr="arg2" ve="3">%par1</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act7" ve="6">
+			<code>130</code>
+			<Str sr="arg0" ve="3">HandleData</Str>
+			<Int sr="arg1" val="10"/>
+			<Str sr="arg2" ve="3">%par1</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act8" ve="6">
+			<code>130</code>
+			<Str sr="arg0" ve="3">HandleNotif</Str>
+			<Int sr="arg1" val="10"/>
+			<Str sr="arg2" ve="3">%par1</Str>
+			<Str sr="arg3" ve="3">%par2</Str>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act9" ve="6">
+			<code>38</code>
+		</Action>
+	</Task>
+	<Task sr="task228">
+		<cdate>1344222388460</cdate>
+		<edate>1391711580547</edate>
+		<id>228</id>
+		<nme>BatteryBotLauncher</nme>
+		<pri>10</pri>
+		<Action sr="act0" ve="6">
+			<code>47</code>
+			<Str sr="arg0" ve="3">BatteryBotSettingsPopup</Str>
+			<Int sr="arg1" val="4"/>
+			<Int sr="arg2" val="100"/>
+			<Int sr="arg3" val="100"/>
+			<Int sr="arg4" val="2"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task229">
+		<cdate>1386570285989</cdate>
+		<edate>1386570285989</edate>
+		<id>229</id>
+		<pri>12</pri>
+		<Action sr="act0" ve="6">
+			<code>130</code>
+			<Str sr="arg0" ve="3">EnableBatteryManager</Str>
+			<Int sr="arg1" val="10"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="1"/>
+		</Action>
+	</Task>
+	<Task sr="task230">
+		<cdate>1386570312070</cdate>
+		<edate>1386570312070</edate>
+		<id>230</id>
+		<pri>12</pri>
+		<Action sr="act0" ve="6">
+			<code>130</code>
+			<Str sr="arg0" ve="3">ResetBatteryManager</Str>
+			<Int sr="arg1" val="10"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="1"/>
+		</Action>
+	</Task>
+	<Task sr="task231">
+		<cdate>1386570396186</cdate>
+		<edate>1386570396186</edate>
+		<id>231</id>
+		<pri>12</pri>
+		<Action sr="act0" ve="6">
+			<code>49</code>
+			<Str sr="arg0" ve="3">BatteryBotSettingsPopup</Str>
+		</Action>
+	</Task>
+	<Task sr="task233">
+		<cdate>1386588811265</cdate>
+		<edate>1386590850709</edate>
+		<id>233</id>
+		<pri>10</pri>
+		<Action sr="act0" ve="6">
+			<code>130</code>
+			<Str sr="arg0" ve="3">ReleaseDataLockIntent</Str>
+			<Int sr="arg1" val="10"/>
+			<Str sr="arg2" ve="3">off</Str>
+			<Str sr="arg3" ve="3">Low Battery Monitor</Str>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task235">
+		<cdate>1386654706449</cdate>
+		<edate>1386936178831</edate>
+		<id>235</id>
+		<Action sr="act0" ve="6">
+			<code>523</code>
+			<on>false</on>
+			<Str sr="arg0" ve="3">%WIFII</Str>
+			<Str sr="arg1" ve="3">%AIR, %CELLSIG</Str>
+			<Img sr="arg2" ve="2"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Action sr="act1" ve="6">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%WIFII</lhs>
+					<op>4</op>
+					<rhs>^....SCAN...</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act2" ve="6">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%AIR</lhs>
+					<op>2</op>
+					<rhs>off</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act3" ve="6">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%CELLSIG</lhs>
+					<op>9</op>
+					<rhs>-1</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act4" ve="6">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%BM_networkDataState</Str>
+			<Str sr="arg1" ve="3">off</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act5" ve="6">
+			<code>38</code>
+		</Action>
+		<Action sr="act6" ve="6">
+			<code>38</code>
+		</Action>
+		<Action sr="act7" ve="6">
+			<code>38</code>
+		</Action>
+	</Task>
+</TaskerData>
