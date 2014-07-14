@@ -1,4 +1,4 @@
-<TaskerData sr="" dvi="1" tv="4.4b8m">
+<TaskerData sr="" dvi="1" tv="4.4b10m">
 	<dmetric>768.0,1184.0</dmetric>
 	<Profile sr="prof167" ve="2">
 		<cdate>1367912511078</cdate>
@@ -17,7 +17,6 @@
 		<clp>true</clp>
 		<edate>1404874222149</edate>
 		<id>171</id>
-		<limit>true</limit>
 		<mid0>172</mid0>
 		<nme>DisplayOff</nme>
 		<Event sr="con0" ve="2">
@@ -27,17 +26,14 @@
 	<Profile sr="prof173" ve="2">
 		<cdate>1367913328294</cdate>
 		<clp>true</clp>
-		<edate>1404831589505</edate>
+		<edate>1405302303654</edate>
 		<id>173</id>
-		<limit>true</limit>
 		<mid0>174</mid0>
 		<mid1>179</mid1>
 		<nme>BatteryManager</nme>
 		<Time sr="con0">
-			<fh>6</fh>
-			<fm>0</fm>
-			<th>23</th>
-			<tm>30</tm>
+			<fromvar>%BMConfig_DayStart</fromvar>
+			<tovar>%BMConfig_DayEnd</tovar>
 		</Time>
 	</Profile>
 	<Profile sr="prof175" ve="2">
@@ -79,7 +75,6 @@
 		<clp>true</clp>
 		<edate>1405045541778</edate>
 		<id>180</id>
-		<limit>true</limit>
 		<mid0>181</mid0>
 		<mid1>233</mid1>
 		<nme>LowBatteryMonitor</nme>
@@ -92,9 +87,8 @@
 	<Profile sr="prof200" ve="2">
 		<cdate>1385604691437</cdate>
 		<clp>true</clp>
-		<edate>1404795304364</edate>
+		<edate>1405224691807</edate>
 		<id>200</id>
-		<limit>true</limit>
 		<mid0>201</mid0>
 		<nme>DisplayOn</nme>
 		<Event sr="con0" ve="2">
@@ -106,7 +100,6 @@
 		<clp>true</clp>
 		<edate>1404873268896</edate>
 		<id>202</id>
-		<limit>true</limit>
 		<mid0>203</mid0>
 		<nme>StartBatteryBot</nme>
 		<Event sr="con0" ve="2">
@@ -117,32 +110,32 @@
 	<Project sr="proj0" ve="2">
 		<cdate>1367912433439</cdate>
 		<name>TBM</name>
-		<pids>171,180,177,167,175,202,173,200</pids>
-		<scenes>BatteryBotSettingsPopup</scenes>
-		<tids>176,178,143,182,190,187,179,219,189,174,233,184,170,181,172,213,183,215,203,230,185,201,214,229,199,188,231,228,198,220,186</tids>
+		<pids>167,175,177,180,202,173,200,171</pids>
+		<scenes>BatteryBotIntroPopup,BatteryBotSettingsPopup</scenes>
+		<tids>172,179,262,183,178,189,187,181,170,219,182,176,213,174,143,203,199,190,188,185,215,201,184,260,261,214,233,228,235,229,231,230,259,198,186,220</tids>
 		<Kid sr="Kid">
 			<feat0>android.hardware.wifi:y</feat0>
 			<launchID>228</launchID>
 			<pkg>com.thednase.taskerapp.batterybot</pkg>
-			<vnme>1.3.8</vnme>
-			<vnum>18</vnum>
+			<vnme>1.3.9</vnme>
+			<vnum>20</vnum>
 		</Kid>
 		<Img sr="icon" ve="2">
 			<nme>hd_aaa_ext_bulb</nme>
 		</Img>
 	</Project>
-	<Scene sr="sceneBatteryBotSettingsPopup">
+	<Scene sr="sceneBatteryBotIntroPopup">
 		<cdate>1386563712716</cdate>
-		<edate>1403054494712</edate>
+		<edate>1405238087320</edate>
 		<heightLand>768</heightLand>
 		<heightPort>961</heightPort>
-		<nme>BatteryBotSettingsPopup</nme>
+		<nme>BatteryBotIntroPopup</nme>
 		<widthLand>667</widthLand>
 		<widthPort>667</widthPort>
 		<ButtonElement sr="elements0" ve="3">
 			<clickTask>229</clickTask>
 			<flags>4</flags>
-			<geom>0,881,222,79,0,689,222,79</geom>
+			<geom>0,881,149,79,0,689,222,79</geom>
 			<Str sr="arg0" ve="3">Enable</Str>
 			<Str sr="arg1" ve="3">Enable</Str>
 			<Int sr="arg2" val="16"/>
@@ -155,7 +148,7 @@
 		<ButtonElement sr="elements1" ve="3">
 			<clickTask>230</clickTask>
 			<flags>4</flags>
-			<geom>223,881,218,79,223,689,218,79</geom>
+			<geom>150,881,145,79,223,689,218,79</geom>
 			<Str sr="arg0" ve="3">Disable</Str>
 			<Str sr="arg1" ve="3">Disable</Str>
 			<Int sr="arg2" val="16"/>
@@ -168,7 +161,7 @@
 		<ButtonElement sr="elements2" ve="3">
 			<clickTask>231</clickTask>
 			<flags>4</flags>
-			<geom>442,881,224,79,442,689,224,79</geom>
+			<geom>490,881,175,79,442,689,224,79</geom>
 			<Str sr="arg0" ve="3">Close</Str>
 			<Str sr="arg1" ve="3">Close</Str>
 			<Int sr="arg2" val="16"/>
@@ -232,6 +225,19 @@ tasker.dinglisch.net" &gt;Tasker&lt;/a&gt; as its coding language. Without &lt;a
 			<Int sr="arg7" val="0"/>
 			<Int sr="arg8" val="2"/>
 		</TextElement>
+		<ButtonElement sr="elements7" ve="3">
+			<clickTask>235</clickTask>
+			<flags>4</flags>
+			<geom>296,881,194,79,-1,-1,-1,-1</geom>
+			<Str sr="arg0" ve="3">Button4</Str>
+			<Str sr="arg1" ve="3">Settings</Str>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Img sr="arg7" ve="2"/>
+		</ButtonElement>
 		<PropertiesElement sr="props">
 			<Int sr="arg0" val="1"/>
 			<Int sr="arg1" val="0"/>
@@ -243,9 +249,314 @@ tasker.dinglisch.net" &gt;Tasker&lt;/a&gt; as its coding language. Without &lt;a
 			<Str sr="arg7" ve="3"/>
 		</PropertiesElement>
 	</Scene>
+	<Scene sr="sceneBatteryBotSettingsPopup">
+		<cdate>1405141482209</cdate>
+		<edate>1405303883013</edate>
+		<heightLand>768</heightLand>
+		<heightPort>817</heightPort>
+		<nme>BatteryBotSettingsPopup</nme>
+		<widthLand>643</widthLand>
+		<widthPort>643</widthPort>
+		<SliderElement sr="elements0">
+			<flags>4</flags>
+			<geom>175,177,459,73,175,250,467,73</geom>
+			<valueselectedTask>261</valueselectedTask>
+			<Str sr="arg0" ve="3">daytimeStart</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="23"/>
+			<Int sr="arg4" val="6"/>
+			<Int sr="arg5" val="2"/>
+			<Img sr="arg6" ve="2"/>
+		</SliderElement>
+		<SliderElement sr="elements1">
+			<flags>4</flags>
+			<geom>175,250,456,73,175,177,467,73</geom>
+			<valueselectedTask>262</valueselectedTask>
+			<Str sr="arg0" ve="3">daytimeEnd</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="23"/>
+			<Int sr="arg4" val="23"/>
+			<Int sr="arg5" val="2"/>
+			<Img sr="arg6" ve="2"/>
+		</SliderElement>
+		<TextElement sr="elements10" ve="3">
+			<flags>4</flags>
+			<geom>345,468,297,74,467,517,170,122</geom>
+			<Str sr="arg0" ve="3">Text8</Str>
+			<Str sr="arg1" ve="3">10kb/%BMConfig_NetSpeedDuration s</Str>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3"/>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="0"/>
+				<Str sr="arg5" ve="3">#FF000000</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</TextElement>
+		<ButtonElement sr="elements11" ve="3">
+			<clickTask>259</clickTask>
+			<flags>4</flags>
+			<geom>411,735,232,80,411,688,232,80</geom>
+			<Str sr="arg0" ve="3">Button1</Str>
+			<Str sr="arg1" ve="3">Close</Str>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Img sr="arg7" ve="2"/>
+		</ButtonElement>
+		<TextElement sr="elements12" ve="3">
+			<flags>4</flags>
+			<geom>0,735,418,80,0,688,418,80</geom>
+			<Str sr="arg0" ve="3">Text9</Str>
+			<Str sr="arg1" ve="3">%BMConfig_Message</Str>
+			<Int sr="arg2" val="15"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFF0000</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<TextElement sr="elements13" ve="3">
+			<flags>4</flags>
+			<geom>0,541,466,195,-1,-1,-1,-1</geom>
+			<Str sr="arg0" ve="3">Text10</Str>
+			<Str sr="arg1" ve="3">DaySchedule frequency:</Str>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<TextElement sr="elements14" ve="3">
+			<flags>4</flags>
+			<geom>467,541,176,195,-1,-1,-1,-1</geom>
+			<Str sr="arg0" ve="3">Text11</Str>
+			<Str sr="arg1" ve="3">N. A.</Str>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<TextElement sr="elements2" ve="3">
+			<flags>4</flags>
+			<geom>0,177,174,73,0,177,174,73</geom>
+			<Str sr="arg0" ve="3">DaytimeStartText</Str>
+			<Str sr="arg1" ve="3">Start:</Str>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<TextElement sr="elements3" ve="3">
+			<flags>4</flags>
+			<geom>0,250,174,73,0,250,174,73</geom>
+			<Str sr="arg0" ve="3">DaytimeEndText</Str>
+			<Str sr="arg1" ve="3">End:</Str>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<ListElement sr="elements4">
+			<flags>4</flags>
+			<geom>0,420,345,122,0,420,462,316</geom>
+			<Str sr="arg0" ve="3">NetSpeed</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3"/>
+			<Int sr="arg3" val="1"/>
+			<Scene sr="arg4">
+				<Scene sr="val">
+					<cdate>1405301202703</cdate>
+					<edate>1405301202703</edate>
+					<heightLand>-1</heightLand>
+					<heightPort>111</heightPort>
+					<nme>Builtin Item Layout</nme>
+					<widthLand>-1</widthLand>
+					<widthPort>111</widthPort>
+					<ImageElement sr="elements0" ve="2">
+						<flags>5</flags>
+						<geom>10,10,90,90,-1,-1,-1,-1</geom>
+						<Str sr="arg0" ve="3">Icon</Str>
+						<Img sr="arg1" ve="2">
+							<nme>hd_aaa_ext_tiles_small</nme>
+						</Img>
+						<Int sr="arg2" val="255"/>
+						<Str sr="arg3" ve="3">#FF0099CC</Str>
+					</ImageElement>
+					<PropertiesElement sr="props">
+						<Int sr="arg0" val="1"/>
+						<Int sr="arg1" val="0"/>
+						<Str sr="arg2" ve="3">#22FFFFFF</Str>
+						<Int sr="arg3" val="0"/>
+						<Str sr="arg4" ve="3">Builtin Item Layout</Str>
+						<Str sr="arg5" ve="3"/>
+						<Img sr="arg6" ve="2"/>
+						<Str sr="arg7" ve="3"/>
+					</PropertiesElement>
+				</Scene>
+			</Scene>
+			<Int sr="arg5" val="1"/>
+			<Int sr="arg6" val="1"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3"/>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="0"/>
+				<Str sr="arg5" ve="3">#FF000000</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+			<ListElementItem sr="item0">
+				<label>10kb/5s</label>
+				<Action sr="action" ve="6">
+					<code>547</code>
+					<Str sr="arg0" ve="3">%BMConfig_NetSpeedDuration</Str>
+					<Str sr="arg1" ve="3">5</Str>
+					<Int sr="arg2" val="0"/>
+					<Int sr="arg3" val="0"/>
+				</Action>
+				<Img sr="icon" ve="2">
+					<fle>/storage/emulated/0/Tasker/.icn/MyCollection/ico0.png</fle>
+				</Img>
+			</ListElementItem>
+			<ListElementItem sr="item1">
+				<label>10kb/10s</label>
+				<Action sr="action" ve="6">
+					<code>547</code>
+					<Str sr="arg0" ve="3">%BMConfig_NetSpeedDuration</Str>
+					<Str sr="arg1" ve="3">10</Str>
+					<Int sr="arg2" val="0"/>
+					<Int sr="arg3" val="0"/>
+				</Action>
+				<Img sr="icon" ve="2">
+					<fle>/storage/emulated/0/Tasker/.icn/MyCollection/ico1.png</fle>
+				</Img>
+			</ListElementItem>
+			<ListElementItem sr="item2">
+				<label>10kb/15s</label>
+				<Action sr="action" ve="6">
+					<code>547</code>
+					<Str sr="arg0" ve="3">%BMConfig_NetSpeedDuration</Str>
+					<Str sr="arg1" ve="3">15</Str>
+					<Int sr="arg2" val="0"/>
+					<Int sr="arg3" val="0"/>
+				</Action>
+				<Img sr="icon" ve="2">
+					<fle>/storage/emulated/0/Tasker/.icn/MyCollection/ico2.png</fle>
+				</Img>
+			</ListElementItem>
+		</ListElement>
+		<TextElement sr="elements5" ve="3">
+			<flags>4</flags>
+			<geom>0,0,642,80,0,0,642,80</geom>
+			<Str sr="arg0" ve="3">Text3</Str>
+			<Str sr="arg1" ve="3">TBM Configuration</Str>
+			<Int sr="arg2" val="18"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3">#80000000</Str>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="0"/>
+				<Str sr="arg5" ve="3">#FF000000</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</TextElement>
+		<TextElement sr="elements6" ve="3">
+			<flags>4</flags>
+			<geom>0,80,297,102,0,80,297,102</geom>
+			<Str sr="arg0" ve="3">Text4</Str>
+			<Str sr="arg1" ve="3">Daytime Config:</Str>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<TextElement sr="elements7" ve="3">
+			<flags>4</flags>
+			<geom>297,80,340,97,297,80,340,97</geom>
+			<Str sr="arg0" ve="3">Text5</Str>
+			<Str sr="arg1" ve="3">(Outside this is of course night!)</Str>
+			<Int sr="arg2" val="9"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<TextElement sr="elements8" ve="3">
+			<flags>4</flags>
+			<geom>0,323,642,98,0,323,642,98</geom>
+			<Str sr="arg0" ve="3">Text6</Str>
+			<Str sr="arg1" ve="3">Minimum Net Speed for disconnection:</Str>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<TextElement sr="elements9" ve="3">
+			<flags>4</flags>
+			<geom>345,420,292,49,467,420,175,97</geom>
+			<Str sr="arg0" ve="3">Text7</Str>
+			<Str sr="arg1" ve="3">Selected:</Str>
+			<Int sr="arg2" val="13"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+	</Scene>
 	<Task sr="task143">
 		<cdate>1369019342736</cdate>
-		<edate>1404873161137</edate>
+		<edate>1405302165266</edate>
 		<id>143</id>
 		<nme>SetState</nme>
 		<Action sr="act0" ve="6">
@@ -533,8 +844,9 @@ tasker.dinglisch.net" &gt;Tasker&lt;/a&gt; as its coding language. Without &lt;a
 	</Task>
 	<Task sr="task174">
 		<cdate>1367913334389</cdate>
-		<edate>1404831589505</edate>
+		<edate>1405302218133</edate>
 		<id>174</id>
+		<nme>DayTime</nme>
 		<pri>10</pri>
 		<Action sr="act0" ve="6">
 			<code>547</code>
@@ -1032,7 +1344,7 @@ tasker.dinglisch.net" &gt;Tasker&lt;/a&gt; as its coding language. Without &lt;a
 	</Task>
 	<Task sr="task184">
 		<cdate>1367919685126</cdate>
-		<edate>1405044333511</edate>
+		<edate>1405302136768</edate>
 		<id>184</id>
 		<nme>EnableBatteryManager</nme>
 		<pri>10</pri>
@@ -1053,92 +1365,6 @@ tasker.dinglisch.net" &gt;Tasker&lt;/a&gt; as its coding language. Without &lt;a
 			<Int sr="arg3" val="0"/>
 		</Action>
 		<Action sr="act10" ve="6">
-			<code>130</code>
-			<on>false</on>
-			<Str sr="arg0" ve="3">HandleNotif</Str>
-			<Int sr="arg1" val="10"/>
-			<Str sr="arg2" ve="3">?</Str>
-			<Str sr="arg3" ve="3">?</Str>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-		</Action>
-		<Action sr="act11" ve="6">
-			<code>130</code>
-			<Str sr="arg0" ve="3">ForceUpdateNotif</Str>
-			<Int sr="arg1" val="10"/>
-			<Str sr="arg2" ve="3"/>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-		</Action>
-		<Action sr="act2" ve="6">
-			<code>547</code>
-			<on>false</on>
-			<Str sr="arg0" ve="3">%BM_DataOnLock</Str>
-			<Str sr="arg1" ve="3">,</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-		</Action>
-		<Action sr="act3" ve="6">
-			<code>159</code>
-			<Str sr="arg0" ve="3">BatteryManager</Str>
-			<Int sr="arg1" val="1"/>
-		</Action>
-		<Action sr="act4" ve="6">
-			<code>425</code>
-			<on>false</on>
-			<Int sr="arg0" val="0"/>
-		</Action>
-		<Action sr="act5" ve="6">
-			<code>30</code>
-			<on>false</on>
-			<Int sr="arg0" val="0"/>
-			<Int sr="arg1" val="1"/>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-		</Action>
-		<Action sr="act6" ve="6">
-			<code>130</code>
-			<Str sr="arg0" ve="3">SetState</Str>
-			<Int sr="arg1" val="10"/>
-			<Str sr="arg2" ve="3"/>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-		</Action>
-		<Action sr="act7" ve="6">
-			<code>130</code>
-			<Str sr="arg0" ve="3">NightTime</Str>
-			<Int sr="arg1" val="5"/>
-			<Str sr="arg2" ve="3"/>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%BM_isDayTime</lhs>
-					<op>3</op>
-					<rhs>Y</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act8" ve="6">
-			<code>35</code>
-			<Int sr="arg0" val="0"/>
-			<Int sr="arg1" val="2"/>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%BM_isDayTime</lhs>
-					<op>12</op>
-					<rhs></rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act9" ve="6">
 			<code>523</code>
 			<on>false</on>
 			<Str sr="arg0" ve="3">TBM</Str>
@@ -1174,6 +1400,94 @@ tasker.dinglisch.net" &gt;Tasker&lt;/a&gt; as its coding language. Without &lt;a
 					<nme>hd_av_replay</nme>
 				</Img>
 			</ListElementItem>
+		</Action>
+		<Action sr="act11" ve="6">
+			<code>130</code>
+			<on>false</on>
+			<Str sr="arg0" ve="3">HandleNotif</Str>
+			<Int sr="arg1" val="10"/>
+			<Str sr="arg2" ve="3">?</Str>
+			<Str sr="arg3" ve="3">?</Str>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act12" ve="6">
+			<code>130</code>
+			<Str sr="arg0" ve="3">ForceUpdateNotif</Str>
+			<Int sr="arg1" val="10"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act2" ve="6">
+			<code>130</code>
+			<Str sr="arg0" ve="3">SetDefaultConfig</Str>
+			<Int sr="arg1" val="7"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act3" ve="6">
+			<code>547</code>
+			<on>false</on>
+			<Str sr="arg0" ve="3">%BM_DataOnLock</Str>
+			<Str sr="arg1" ve="3">,</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act4" ve="6">
+			<code>159</code>
+			<Str sr="arg0" ve="3">BatteryManager</Str>
+			<Int sr="arg1" val="1"/>
+		</Action>
+		<Action sr="act5" ve="6">
+			<code>425</code>
+			<on>false</on>
+			<Int sr="arg0" val="0"/>
+		</Action>
+		<Action sr="act6" ve="6">
+			<code>30</code>
+			<on>false</on>
+			<Int sr="arg0" val="0"/>
+			<Int sr="arg1" val="1"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act7" ve="6">
+			<code>130</code>
+			<Str sr="arg0" ve="3">SetState</Str>
+			<Int sr="arg1" val="10"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act8" ve="6">
+			<code>30</code>
+			<Int sr="arg0" val="0"/>
+			<Int sr="arg1" val="2"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act9" ve="6">
+			<code>130</code>
+			<Str sr="arg0" ve="3">NightTime</Str>
+			<Int sr="arg1" val="5"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%BM_isDayTime</lhs>
+					<op>3</op>
+					<rhs>Y</rhs>
+				</Condition>
+			</ConditionList>
 		</Action>
 	</Task>
 	<Task sr="task185">
@@ -1473,7 +1787,7 @@ tasker.dinglisch.net" &gt;Tasker&lt;/a&gt; as its coding language. Without &lt;a
 	</Task>
 	<Task sr="task188">
 		<cdate>1367979879437</cdate>
-		<edate>1405045656314</edate>
+		<edate>1405301519592</edate>
 		<id>188</id>
 		<nme>ResetBatteryManager</nme>
 		<pri>10</pri>
@@ -1817,7 +2131,7 @@ tasker.dinglisch.net" &gt;Tasker&lt;/a&gt; as its coding language. Without &lt;a
 	</Task>
 	<Task sr="task201">
 		<cdate>1385604694912</cdate>
-		<edate>1404795304364</edate>
+		<edate>1405224691807</edate>
 		<id>201</id>
 		<nme>DisplayOnHandler</nme>
 		<rty>1</rty>
@@ -1834,36 +2148,41 @@ tasker.dinglisch.net" &gt;Tasker&lt;/a&gt; as its coding language. Without &lt;a
 			<Str sr="arg1" ve="3">DisplayOffHandler</Str>
 		</Action>
 		<Action sr="act2" ve="6">
+			<code>137</code>
+			<Int sr="arg0" val="0"/>
+			<Str sr="arg1" ve="3">HandleNet</Str>
+		</Action>
+		<Action sr="act3" ve="6">
 			<code>159</code>
 			<Str sr="arg0" ve="3">DaySchedule</Str>
 			<Int sr="arg1" val="0"/>
 		</Action>
-		<Action sr="act3" ve="6">
+		<Action sr="act4" ve="6">
 			<code>159</code>
 			<Str sr="arg0" ve="3">ActiveNightSchedule</Str>
 			<Int sr="arg1" val="0"/>
 		</Action>
-		<Action sr="act4" ve="6">
+		<Action sr="act5" ve="6">
 			<code>137</code>
 			<Int sr="arg0" val="0"/>
 			<Str sr="arg1" ve="3">DayScheduleHandler</Str>
 		</Action>
-		<Action sr="act5" ve="6">
+		<Action sr="act6" ve="6">
 			<code>137</code>
 			<Int sr="arg0" val="0"/>
 			<Str sr="arg1" ve="3">NightScheduleHandler</Str>
 		</Action>
-		<Action sr="act6" ve="6">
+		<Action sr="act7" ve="6">
 			<code>137</code>
 			<Int sr="arg0" val="0"/>
 			<Str sr="arg1" ve="3">IsNetActive</Str>
 		</Action>
-		<Action sr="act7" ve="6">
+		<Action sr="act8" ve="6">
 			<code>137</code>
 			<Int sr="arg0" val="0"/>
 			<Str sr="arg1" ve="3">IsNetReadyToOff</Str>
 		</Action>
-		<Action sr="act8" ve="6">
+		<Action sr="act9" ve="6">
 			<code>130</code>
 			<Str sr="arg0" ve="3">HandleNet</Str>
 			<Int sr="arg1" val="5"/>
@@ -2048,7 +2367,7 @@ tasker.dinglisch.net" &gt;Tasker&lt;/a&gt; as its coding language. Without &lt;a
 	</Task>
 	<Task sr="task214">
 		<cdate>1386209165112</cdate>
-		<edate>1394071494610</edate>
+		<edate>1405302397284</edate>
 		<id>214</id>
 		<nme>IsNetActive</nme>
 		<Action sr="act0" ve="6">
@@ -2112,7 +2431,9 @@ tasker.dinglisch.net" &gt;Tasker&lt;/a&gt; as its coding language. Without &lt;a
 		<Action sr="act5" ve="6">
 			<code>30</code>
 			<Int sr="arg0" val="0"/>
-			<Int sr="arg1" val="15"/>
+			<Int sr="arg1">
+				<var>%BMConfig_NetSpeedDuration</var>
+			</Int>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
@@ -2210,14 +2531,15 @@ tasker.dinglisch.net" &gt;Tasker&lt;/a&gt; as its coding language. Without &lt;a
 	</Task>
 	<Task sr="task219">
 		<cdate>1386555766893</cdate>
-		<edate>1391783518546</edate>
+		<edate>1405302639670</edate>
 		<id>219</id>
 		<nme>HandleNotif</nme>
 		<pri>10</pri>
 		<Action sr="act0" ve="6">
 			<code>523</code>
 			<Str sr="arg0" ve="3">TBM</Str>
-			<Str sr="arg1" ve="3">data: %par1, cause: %par2</Str>
+			<Str sr="arg1" ve="3">Net: %par1, Cause: %par2,
+Daytime: %BM_isDayTime</Str>
 			<Img sr="arg2" ve="2">
 				<nme>hd_aaa_ext_bulb</nme>
 			</Img>
@@ -2442,13 +2764,22 @@ tasker.dinglisch.net" &gt;Tasker&lt;/a&gt; as its coding language. Without &lt;a
 	</Task>
 	<Task sr="task228">
 		<cdate>1344222388460</cdate>
-		<edate>1391711580547</edate>
+		<edate>1405265747374</edate>
 		<id>228</id>
 		<nme>BatteryBotLauncher</nme>
 		<pri>10</pri>
 		<Action sr="act0" ve="6">
+			<code>130</code>
+			<Str sr="arg0" ve="3">SetDefaultConfig</Str>
+			<Int sr="arg1" val="7"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act1" ve="6">
 			<code>47</code>
-			<Str sr="arg0" ve="3">BatteryBotSettingsPopup</Str>
+			<Str sr="arg0" ve="3">BatteryBotIntroPopup</Str>
 			<Int sr="arg1" val="4"/>
 			<Int sr="arg2" val="100"/>
 			<Int sr="arg3" val="100"/>
@@ -2494,7 +2825,7 @@ tasker.dinglisch.net" &gt;Tasker&lt;/a&gt; as its coding language. Without &lt;a
 		<pri>12</pri>
 		<Action sr="act0" ve="6">
 			<code>49</code>
-			<Str sr="arg0" ve="3">BatteryBotSettingsPopup</Str>
+			<Str sr="arg0" ve="3">BatteryBotIntroPopup</Str>
 		</Action>
 	</Task>
 	<Task sr="task233">
@@ -2519,6 +2850,176 @@ tasker.dinglisch.net" &gt;Tasker&lt;/a&gt; as its coding language. Without &lt;a
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task235">
+		<cdate>1405237933095</cdate>
+		<edate>1405237933095</edate>
+		<id>235</id>
+		<pri>12</pri>
+		<Action sr="act0" ve="6">
+			<code>47</code>
+			<Str sr="arg0" ve="3">BatteryBotSettingsPopup</Str>
+			<Int sr="arg1" val="4"/>
+			<Int sr="arg2" val="100"/>
+			<Int sr="arg3" val="100"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="1"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+	</Task>
+	<Task sr="task259">
+		<cdate>1405238139334</cdate>
+		<edate>1405238139334</edate>
+		<id>259</id>
+		<pri>14</pri>
+		<Action sr="act0" ve="6">
+			<code>49</code>
+			<Str sr="arg0" ve="3">BatteryBotSettingsPopup</Str>
+		</Action>
+	</Task>
+	<Task sr="task260">
+		<cdate>1405238531860</cdate>
+		<edate>1405265638947</edate>
+		<id>260</id>
+		<nme>SetDefaultConfig</nme>
+		<Action sr="act0" ve="6">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%BMConfig_NetSpeedDuration</Str>
+			<Str sr="arg1" ve="3">10</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%BMConfig_NetSpeedDuration</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act1" ve="6">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%BMConfig_DayStart</Str>
+			<Str sr="arg1" ve="3">6.00</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%BMConfig_DayStart</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act2" ve="6">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%BMConfig_DayEnd</Str>
+			<Str sr="arg1" ve="3">23.00</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%BMConfig_DayEnd</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act3" ve="6">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%BMConfig_Message</Str>
+			<Str sr="arg1" ve="3">  </Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%BMConfig_Message</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+	</Task>
+	<Task sr="task261">
+		<cdate>1405253183298</cdate>
+		<edate>1405253183298</edate>
+		<id>261</id>
+		<pri>14</pri>
+		<Action sr="act0" ve="6">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%BMConfig_Message</Str>
+			<Str sr="arg1" ve="3">  </Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act1" ve="6">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%BMConfig_DayStart</Str>
+			<Str sr="arg1" ve="3">%new_val</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act2" ve="6">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%BMConfig_DayStart</Str>
+			<Str sr="arg1" ve="3">.00</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="1"/>
+		</Action>
+		<Action sr="act3" ve="6">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%BMConfig_Message</Str>
+			<Str sr="arg1" ve="3">A day can't end before it begins!!</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%BMConfig_DayEnd</lhs>
+					<op>6</op>
+					<rhs>%BMConfig_DayStart</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+	</Task>
+	<Task sr="task262">
+		<cdate>1405258442224</cdate>
+		<edate>1405258442224</edate>
+		<id>262</id>
+		<pri>14</pri>
+		<Action sr="act0" ve="6">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%BMConfig_Message</Str>
+			<Str sr="arg1" ve="3">  </Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act1" ve="6">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%BMConfig_DayEnd</Str>
+			<Str sr="arg1" ve="3">%new_val</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act2" ve="6">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%BMConfig_DayEnd</Str>
+			<Str sr="arg1" ve="3">.00</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="1"/>
+		</Action>
+		<Action sr="act3" ve="6">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%BMConfig_Message</Str>
+			<Str sr="arg1" ve="3">A day can't end before it begins!!</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%BMConfig_DayEnd</lhs>
+					<op>6</op>
+					<rhs>%BMConfig_DayStart</rhs>
+				</Condition>
+			</ConditionList>
 		</Action>
 	</Task>
 </TaskerData>
