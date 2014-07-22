@@ -1,4 +1,4 @@
-<TaskerData sr="" dvi="1" tv="4.4b10m">
+<TaskerData sr="" dvi="1" tv="4.4u1m">
 	<dmetric>768.0,1184.0</dmetric>
 	<Profile sr="prof167" ve="2">
 		<cdate>1367912511078</cdate>
@@ -15,7 +15,7 @@
 	<Profile sr="prof171" ve="2">
 		<cdate>1367912692375</cdate>
 		<clp>true</clp>
-		<edate>1404874222149</edate>
+		<edate>1405996996704</edate>
 		<id>171</id>
 		<mid0>172</mid0>
 		<nme>DisplayOff</nme>
@@ -39,11 +39,11 @@
 	<Profile sr="prof175" ve="2">
 		<cdate>1367913762589</cdate>
 		<clp>true</clp>
-		<edate>1404952854678</edate>
+		<edate>1405996921810</edate>
 		<id>175</id>
 		<limit>true</limit>
 		<mid0>176</mid0>
-		<nme>DaySchedule</nme>
+		<nme>DaySchedule5</nme>
 		<Time sr="con0">
 			<fh>-1</fh>
 			<fm>-1</fm>
@@ -56,11 +56,11 @@
 	<Profile sr="prof177" ve="2">
 		<cdate>1367913895443</cdate>
 		<clp>true</clp>
-		<edate>1386562761156</edate>
+		<edate>1405997026115</edate>
 		<id>177</id>
 		<limit>true</limit>
 		<mid0>178</mid0>
-		<nme>ActiveNightSchedule</nme>
+		<nme>NightSchedule1</nme>
 		<Time sr="con0">
 			<fh>-1</fh>
 			<fm>-1</fm>
@@ -107,6 +107,57 @@
 			<pri>0</pri>
 		</Event>
 	</Profile>
+	<Profile sr="prof264" ve="2">
+		<cdate>1367913762589</cdate>
+		<clp>true</clp>
+		<edate>1404952854678</edate>
+		<id>264</id>
+		<limit>true</limit>
+		<mid0>176</mid0>
+		<nme>DaySchedule10</nme>
+		<Time sr="con0">
+			<fh>-1</fh>
+			<fm>-1</fm>
+			<rep>2</rep>
+			<repval>5</repval>
+			<th>-1</th>
+			<tm>-1</tm>
+		</Time>
+	</Profile>
+	<Profile sr="prof266" ve="2">
+		<cdate>1367913762589</cdate>
+		<clp>true</clp>
+		<edate>1404952854678</edate>
+		<id>266</id>
+		<limit>true</limit>
+		<mid0>176</mid0>
+		<nme>DaySchedule15</nme>
+		<Time sr="con0">
+			<fh>-1</fh>
+			<fm>-1</fm>
+			<rep>2</rep>
+			<repval>5</repval>
+			<th>-1</th>
+			<tm>-1</tm>
+		</Time>
+	</Profile>
+	<Profile sr="prof267" ve="2">
+		<cdate>1367913895443</cdate>
+		<clp>true</clp>
+		<edate>1405996986964</edate>
+		<id>267</id>
+		<limit>true</limit>
+		<mid0>178</mid0>
+		<nme>NightSchedule2</nme>
+		<Time sr="con0">
+			<fh>-1</fh>
+			<fm>-1</fm>
+			<rep>1</rep>
+			<repval>1</repval>
+			<th>-1</th>
+			<tm>-1</tm>
+		</Time>
+	</Profile>
 	<Profile sr="prof275" ve="2">
 		<cdate>1367914351750</cdate>
 		<clp>true</clp>
@@ -125,15 +176,15 @@
 	<Project sr="proj0" ve="2">
 		<cdate>1367912433439</cdate>
 		<name>TBM</name>
-		<pids>202,180,175,200,275,177,173,167,171</pids>
-		<scenes>BatteryBotSettingsPopup2,BatteryBotSettingsPopup,BatteryBotSettingsPopup5,BatteryBotSettingsPopup4,BatteryBotIntroPopup,BatteryBotSettingsPopup3,BatteryBotAboutPopup</scenes>
-		<tids>189,198,260,199,174,276,213,190,172,181,233,185,143,179,219,170,214,203,273,187,176,178,231,182,259,184,274,215,265,183,188,269,201,262,186,261,235,284,270,278,277,230,229,228,282,220</tids>
+		<pids>180,275,266,173,171,167,267,177,264,202,175,200</pids>
+		<scenes>BatteryBotSettingsPopup5,BatteryBotSettingsPopup3,BatteryBotAboutPopup,BatteryBotSettingsPopup,BatteryBotSettingsPopup4,BatteryBotIntroPopup,BatteryBotSettingsPopup2</scenes>
+		<tids>143,187,203,185,170,199,183,213,278,174,219,214,172,231,178,182,273,190,189,176,269,233,274,260,179,215,277,184,284,186,198,188,228,201,259,282,235,229,181,270,265,261,276,262,230,220</tids>
 		<Kid sr="Kid">
 			<feat0>android.hardware.wifi:y</feat0>
 			<launchID>228</launchID>
 			<pkg>com.thednase.taskerapp.batterybot</pkg>
-			<vnme>v1.4.0beta</vnme>
-			<vnum>21</vnum>
+			<vnme>v1.4.0beta3</vnme>
+			<vnum>23</vnum>
 		</Kid>
 		<Img sr="icon" ve="2">
 			<nme>hd_aaa_ext_bulb</nme>
@@ -141,7 +192,7 @@
 	</Project>
 	<Scene sr="sceneBatteryBotAboutPopup">
 		<cdate>1386563712716</cdate>
-		<edate>1405413869775</edate>
+		<edate>1405476798119</edate>
 		<heightLand>768</heightLand>
 		<heightPort>961</heightPort>
 		<nme>BatteryBotAboutPopup</nme>
@@ -162,7 +213,7 @@
 		</ButtonElement>
 		<TextElement sr="elements1" ve="3">
 			<flags>4</flags>
-			<geom>0,54,665,681,0,54,665,292</geom>
+			<geom>0,54,665,681,0,59,666,500</geom>
 			<Str sr="arg0" ve="3">Credits</Str>
 			<Str sr="arg1" ve="3">This software is developed by 'theDNAse'. It uses &lt;a href="http://
 tasker.dinglisch.net" &gt;Tasker&lt;/a&gt; as its coding language. Without &lt;a href="https://play.google.com/store/apps/details?id=net.dinglisch.android.taskerm" &gt;Tasker (Google play link)&lt;/a&gt; and the &lt;a href="https://play.google.com/store/apps/details?id=net.dinglisch.android.appfactory" &gt;Tasker App Factory (Google play link)&lt;/a&gt;, this would never have been possible. A big thank you to members of tasker Google group for all the help during learning Tasker and also during development of TBM. And to my all my friends for being the testers for this project.
@@ -178,7 +229,7 @@ If you wish to help develop TBM, request you to donate to Tasker instead. I am h
 		</TextElement>
 		<TextElement sr="elements2" ve="3">
 			<flags>4</flags>
-			<geom>0,0,665,54,0,0,665,54</geom>
+			<geom>0,0,665,54,0,0,666,54</geom>
 			<Str sr="arg0" ve="3">Title</Str>
 			<Str sr="arg1" ve="3">&lt;b&gt;Tasker Battery Manager&lt;/b&gt;</Str>
 			<Int sr="arg2" val="16"/>
@@ -191,7 +242,7 @@ If you wish to help develop TBM, request you to donate to Tasker instead. I am h
 		</TextElement>
 		<TextElement sr="elements3" ve="3">
 			<flags>4</flags>
-			<geom>4,735,660,146,-1,-1,-1,-1</geom>
+			<geom>0,735,665,146,0,559,666,125</geom>
 			<Str sr="arg0" ve="3">Notice</Str>
 			<Str sr="arg1" ve="3">&lt;u&gt;&lt;b&gt;Notice&lt;/b&gt;&lt;/u&gt;: To fully utilize the capability of  TBM use Tasker and import the TBM project instead.</Str>
 			<Int sr="arg2" val="16"/>
@@ -215,7 +266,7 @@ If you wish to help develop TBM, request you to donate to Tasker instead. I am h
 	</Scene>
 	<Scene sr="sceneBatteryBotIntroPopup">
 		<cdate>1386563712716</cdate>
-		<edate>1405413850052</edate>
+		<edate>1405476716162</edate>
 		<heightLand>768</heightLand>
 		<heightPort>961</heightPort>
 		<nme>BatteryBotIntroPopup</nme>
@@ -224,7 +275,7 @@ If you wish to help develop TBM, request you to donate to Tasker instead. I am h
 		<ButtonElement sr="elements0" ve="3">
 			<clickTask>229</clickTask>
 			<flags>4</flags>
-			<geom>0,881,149,79,0,689,222,79</geom>
+			<geom>0,881,149,79,0,609,222,75</geom>
 			<Str sr="arg0" ve="3">Enable</Str>
 			<Str sr="arg1" ve="3">Enable</Str>
 			<Int sr="arg2" val="16"/>
@@ -237,7 +288,7 @@ If you wish to help develop TBM, request you to donate to Tasker instead. I am h
 		<ButtonElement sr="elements1" ve="3">
 			<clickTask>230</clickTask>
 			<flags>4</flags>
-			<geom>150,881,145,79,223,689,218,79</geom>
+			<geom>150,881,145,79,208,609,249,75</geom>
 			<Str sr="arg0" ve="3">Disable</Str>
 			<Str sr="arg1" ve="3">Disable</Str>
 			<Int sr="arg2" val="16"/>
@@ -250,7 +301,7 @@ If you wish to help develop TBM, request you to donate to Tasker instead. I am h
 		<ButtonElement sr="elements2" ve="3">
 			<clickTask>231</clickTask>
 			<flags>4</flags>
-			<geom>490,881,175,79,442,689,224,79</geom>
+			<geom>490,881,175,79,333,684,333,84</geom>
 			<Str sr="arg0" ve="3">Close</Str>
 			<Str sr="arg1" ve="3">Close</Str>
 			<Int sr="arg2" val="16"/>
@@ -262,7 +313,7 @@ If you wish to help develop TBM, request you to donate to Tasker instead. I am h
 		</ButtonElement>
 		<TextElement sr="elements3" ve="3">
 			<flags>4</flags>
-			<geom>0,54,665,511,0,233,665,535</geom>
+			<geom>0,54,665,511,0,59,666,400</geom>
 			<Str sr="arg0" ve="3">TOS</Str>
 			<Str sr="arg1" ve="3">This program is distributed WITHOUT ANY WARRANTY; without even the implied warranty of
 MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. You are free to distribute it further, unmodified.  Modified or otherwise,  the author takes no responsibility of any issues or possible issues arising from use or misuse this program.</Str>
@@ -276,9 +327,9 @@ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. You are free to distribute 
 		</TextElement>
 		<TextElement sr="elements4" ve="3">
 			<flags>4</flags>
-			<geom>0,0,665,54,0,0,665,54</geom>
+			<geom>0,0,665,54,0,0,666,59</geom>
 			<Str sr="arg0" ve="3">Title</Str>
-			<Str sr="arg1" ve="3">&lt;b&gt;Tasker Battery Manager&lt;/b&gt;</Str>
+			<Str sr="arg1" ve="3">&lt;b&gt;Tasker Battery Manager (TBM)&lt;/b&gt;</Str>
 			<Int sr="arg2" val="16"/>
 			<Int sr="arg3" val="100"/>
 			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
@@ -289,7 +340,7 @@ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. You are free to distribute 
 		</TextElement>
 		<TextElement sr="elements5" ve="3">
 			<flags>4</flags>
-			<geom>4,589,660,146,-1,-1,-1,-1</geom>
+			<geom>4,589,660,146,0,459,666,146</geom>
 			<Str sr="arg0" ve="3">Notice</Str>
 			<Str sr="arg1" ve="3">&lt;u&gt;&lt;b&gt;Notice&lt;/b&gt;&lt;/u&gt;: To fully utilize the capability of  TBM use Tasker and import the TBM project instead.</Str>
 			<Int sr="arg2" val="16"/>
@@ -303,7 +354,7 @@ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. You are free to distribute 
 		<ButtonElement sr="elements6" ve="3">
 			<clickTask>235</clickTask>
 			<flags>4</flags>
-			<geom>296,881,194,79,-1,-1,-1,-1</geom>
+			<geom>296,881,194,79,0,684,332,84</geom>
 			<Str sr="arg0" ve="3">Button4</Str>
 			<Str sr="arg1" ve="3">Settings</Str>
 			<Int sr="arg2" val="16"/>
@@ -316,7 +367,7 @@ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. You are free to distribute 
 		<TextElement sr="elements7" ve="3">
 			<clickTask>284</clickTask>
 			<flags>4</flags>
-			<geom>442,759,224,103,-1,-1,-1,-1</geom>
+			<geom>442,759,224,103,443,609,224,75</geom>
 			<Str sr="arg0" ve="3">Text4</Str>
 			<Str sr="arg1" ve="3">Credits..</Str>
 			<Int sr="arg2" val="16"/>
@@ -340,7 +391,7 @@ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. You are free to distribute 
 	</Scene>
 	<Scene sr="sceneBatteryBotSettingsPopup">
 		<cdate>1405141482209</cdate>
-		<edate>1405413697717</edate>
+		<edate>1405476292702</edate>
 		<heightLand>480</heightLand>
 		<heightPort>553</heightPort>
 		<nme>BatteryBotSettingsPopup</nme>
@@ -450,7 +501,7 @@ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. You are free to distribute 
 		<ButtonElement sr="elements7" ve="3">
 			<clickTask>259</clickTask>
 			<flags>4</flags>
-			<geom>0,470,232,73,0,401,234,78</geom>
+			<geom>0,455,232,98,0,401,234,78</geom>
 			<Str sr="arg0" ve="3">Button1</Str>
 			<Str sr="arg1" ve="3">Close</Str>
 			<Int sr="arg2" val="16"/>
@@ -462,10 +513,10 @@ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. You are free to distribute 
 		</ButtonElement>
 		<TextElement sr="elements8" ve="3">
 			<flags>4</flags>
-			<geom>0,373,642,97,0,324,642,74</geom>
+			<geom>0,373,642,80,0,324,642,74</geom>
 			<Str sr="arg0" ve="3">Text9</Str>
 			<Str sr="arg1" ve="3">%BMConfig_Message</Str>
-			<Int sr="arg2" val="15"/>
+			<Int sr="arg2" val="12"/>
 			<Int sr="arg3" val="100"/>
 			<Str sr="arg4" ve="3">#FFFF0000</Str>
 			<Str sr="arg5" ve="3"/>
@@ -476,7 +527,7 @@ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. You are free to distribute 
 		<ButtonElement sr="elements9" ve="3">
 			<clickTask>269</clickTask>
 			<flags>4</flags>
-			<geom>394,470,248,73,408,400,232,80</geom>
+			<geom>411,455,232,98,408,400,232,80</geom>
 			<Str sr="arg0" ve="3">Button2</Str>
 			<Str sr="arg1" ve="3">Next</Str>
 			<Int sr="arg2" val="16"/>
@@ -499,9 +550,9 @@ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. You are free to distribute 
 	</Scene>
 	<Scene sr="sceneBatteryBotSettingsPopup2">
 		<cdate>1405141482209</cdate>
-		<edate>1405413770111</edate>
-		<heightLand>552</heightLand>
-		<heightPort>505</heightPort>
+		<edate>1405477029695</edate>
+		<heightLand>480</heightLand>
+		<heightPort>553</heightPort>
 		<nme>BatteryBotSettingsPopup2</nme>
 		<widthLand>643</widthLand>
 		<widthPort>643</widthPort>
@@ -637,7 +688,7 @@ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. You are free to distribute 
 		</TextElement>
 		<TextElement sr="elements3" ve="3">
 			<flags>4</flags>
-			<geom>0,298,248,98,0,309,208,125</geom>
+			<geom>0,324,248,98,0,309,208,125</geom>
 			<Str sr="arg0" ve="3">Text7</Str>
 			<Str sr="arg1" ve="3">Selected:</Str>
 			<Int sr="arg2" val="16"/>
@@ -650,7 +701,7 @@ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. You are free to distribute 
 		</TextElement>
 		<TextElement sr="elements4" ve="3">
 			<flags>4</flags>
-			<geom>346,298,297,98,434,309,200,125</geom>
+			<geom>358,324,285,98,434,309,200,125</geom>
 			<Str sr="arg0" ve="3">Text8</Str>
 			<Str sr="arg1" ve="3">10kb/%BMConfig_NetSpeedDuration s</Str>
 			<Int sr="arg2" val="16"/>
@@ -676,7 +727,7 @@ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. You are free to distribute 
 		<ButtonElement sr="elements5" ve="3">
 			<clickTask>265</clickTask>
 			<flags>4</flags>
-			<geom>0,421,247,85,0,452,232,100</geom>
+			<geom>0,455,232,98,0,379,232,100</geom>
 			<Str sr="arg0" ve="3">Button1</Str>
 			<Str sr="arg1" ve="3">Close</Str>
 			<Int sr="arg2" val="16"/>
@@ -689,7 +740,7 @@ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. You are free to distribute 
 		<ButtonElement sr="elements6" ve="3">
 			<clickTask>270</clickTask>
 			<flags>4</flags>
-			<geom>411,418,232,87,409,452,233,100</geom>
+			<geom>411,455,232,98,409,379,233,100</geom>
 			<Str sr="arg0" ve="3">Button21</Str>
 			<Str sr="arg1" ve="3">Next</Str>
 			<Int sr="arg2" val="16"/>
@@ -712,7 +763,7 @@ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. You are free to distribute 
 	</Scene>
 	<Scene sr="sceneBatteryBotSettingsPopup3">
 		<cdate>1405141482209</cdate>
-		<edate>1405414023652</edate>
+		<edate>1405476394655</edate>
 		<heightLand>480</heightLand>
 		<heightPort>553</heightPort>
 		<nme>BatteryBotSettingsPopup3</nme>
@@ -759,7 +810,7 @@ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. You are free to distribute 
 		<ButtonElement sr="elements2" ve="3">
 			<clickTask>274</clickTask>
 			<flags>4</flags>
-			<geom>394,455,248,98,408,400,232,80</geom>
+			<geom>411,454,232,98,408,400,232,80</geom>
 			<Str sr="arg0" ve="3">Button2</Str>
 			<Str sr="arg1" ve="3">Next</Str>
 			<Int sr="arg2" val="16"/>
@@ -901,7 +952,7 @@ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. You are free to distribute 
 	</Scene>
 	<Scene sr="sceneBatteryBotSettingsPopup4">
 		<cdate>1405141482209</cdate>
-		<edate>1405402661991</edate>
+		<edate>1406003955499</edate>
 		<heightLand>480</heightLand>
 		<heightPort>553</heightPort>
 		<nme>BatteryBotSettingsPopup4</nme>
@@ -948,7 +999,7 @@ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. You are free to distribute 
 		<ButtonElement sr="elements2" ve="3">
 			<clickTask>277</clickTask>
 			<flags>4</flags>
-			<geom>394,455,248,98,408,400,232,80</geom>
+			<geom>411,455,232,98,408,400,232,80</geom>
 			<Str sr="arg0" ve="3">Button2</Str>
 			<Str sr="arg1" ve="3">Next</Str>
 			<Int sr="arg2" val="16"/>
@@ -960,7 +1011,7 @@ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. You are free to distribute 
 		</ButtonElement>
 		<ListElement sr="elements3">
 			<flags>4</flags>
-			<geom>127,179,407,147,133,152,407,147</geom>
+			<geom>127,179,412,147,133,152,407,147</geom>
 			<Str sr="arg0" ve="3">DayFreqMenu</Str>
 			<Int sr="arg1" val="0"/>
 			<Str sr="arg2" ve="3"/>
@@ -1055,7 +1106,7 @@ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. You are free to distribute 
 			<flags>4</flags>
 			<geom>0,349,224,74,0,327,224,77</geom>
 			<Str sr="arg0" ve="3">Text4</Str>
-			<Str sr="arg1" ve="3">selected:</Str>
+			<Str sr="arg1" ve="3">Selected:</Str>
 			<Int sr="arg2" val="16"/>
 			<Int sr="arg3" val="100"/>
 			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
@@ -1090,7 +1141,7 @@ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. You are free to distribute 
 	</Scene>
 	<Scene sr="sceneBatteryBotSettingsPopup5">
 		<cdate>1405141482209</cdate>
-		<edate>1405402672135</edate>
+		<edate>1406003961959</edate>
 		<heightLand>480</heightLand>
 		<heightPort>553</heightPort>
 		<nme>BatteryBotSettingsPopup5</nme>
@@ -1151,7 +1202,7 @@ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. You are free to distribute 
 			<flags>4</flags>
 			<geom>0,324,224,97,0,302,224,74</geom>
 			<Str sr="arg0" ve="3">Text4</Str>
-			<Str sr="arg1" ve="3">selected:</Str>
+			<Str sr="arg1" ve="3">Selected:</Str>
 			<Int sr="arg2" val="16"/>
 			<Int sr="arg3" val="100"/>
 			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
@@ -1322,7 +1373,7 @@ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. You are free to distribute 
 	</Task>
 	<Task sr="task170">
 		<cdate>1367912514247</cdate>
-		<edate>1404795324668</edate>
+		<edate>1405997891998</edate>
 		<id>170</id>
 		<pri>10</pri>
 		<Action sr="act0" ve="6">
@@ -1338,13 +1389,13 @@ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. You are free to distribute 
 		<Action sr="act1" ve="6">
 			<code>159</code>
 			<on>false</on>
-			<Str sr="arg0" ve="3">DaySchedule</Str>
+			<Str sr="arg0" ve="3">%BMConfig_CalcDaySchedule</Str>
 			<Int sr="arg1" val="0"/>
 		</Action>
 		<Action sr="act2" ve="6">
 			<code>159</code>
 			<on>false</on>
-			<Str sr="arg0" ve="3">ActiveNightSchedule</Str>
+			<Str sr="arg0" ve="3">%BMConfig_CalcNightSchedule</Str>
 			<Int sr="arg1" val="0"/>
 		</Action>
 		<Action sr="act3" ve="6">
@@ -1394,7 +1445,7 @@ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. You are free to distribute 
 	</Task>
 	<Task sr="task172">
 		<cdate>1367912694961</cdate>
-		<edate>1404874222149</edate>
+		<edate>1405997565564</edate>
 		<id>172</id>
 		<nme>DisplayOffHandler</nme>
 		<pri>10</pri>
@@ -1436,7 +1487,7 @@ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. You are free to distribute 
 		</Action>
 		<Action sr="act12" ve="6">
 			<code>159</code>
-			<Str sr="arg0" ve="3">DaySchedule</Str>
+			<Str sr="arg0" ve="3">%BMConfig_CalcDaySchedule</Str>
 			<Int sr="arg1" val="1"/>
 		</Action>
 		<Action sr="act13" ve="6">
@@ -1444,7 +1495,7 @@ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. You are free to distribute 
 		</Action>
 		<Action sr="act14" ve="6">
 			<code>159</code>
-			<Str sr="arg0" ve="3">ActiveNightSchedule</Str>
+			<Str sr="arg0" ve="3">%BMConfig_CalcNightSchedule</Str>
 			<Int sr="arg1" val="1"/>
 		</Action>
 		<Action sr="act15" ve="6">
@@ -1541,7 +1592,7 @@ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. You are free to distribute 
 	</Task>
 	<Task sr="task174">
 		<cdate>1367913334389</cdate>
-		<edate>1405302218133</edate>
+		<edate>1405997837995</edate>
 		<id>174</id>
 		<nme>DayTime</nme>
 		<pri>10</pri>
@@ -1555,12 +1606,12 @@ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. You are free to distribute 
 		<Action sr="act1" ve="6">
 			<code>159</code>
 			<on>false</on>
-			<Str sr="arg0" ve="3">DaySchedule</Str>
+			<Str sr="arg0" ve="3">%BMConfig_CalcDaySchedule</Str>
 			<Int sr="arg1" val="1"/>
 		</Action>
 		<Action sr="act2" ve="6">
 			<code>159</code>
-			<Str sr="arg0" ve="3">ActiveNightSchedule</Str>
+			<Str sr="arg0" ve="3">%BMConfig_CalcNightSchedule</Str>
 			<Int sr="arg1" val="0"/>
 		</Action>
 		<Action sr="act3" ve="6">
@@ -1730,7 +1781,7 @@ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. You are free to distribute 
 	</Task>
 	<Task sr="task179">
 		<cdate>1367914096029</cdate>
-		<edate>1404831439829</edate>
+		<edate>1405997745029</edate>
 		<id>179</id>
 		<nme>NightTime</nme>
 		<pri>10</pri>
@@ -1753,12 +1804,12 @@ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. You are free to distribute 
 		</Action>
 		<Action sr="act2" ve="6">
 			<code>159</code>
-			<Str sr="arg0" ve="3">DaySchedule</Str>
+			<Str sr="arg0" ve="3">%BMConfig_CalcDaySchedule</Str>
 			<Int sr="arg1" val="0"/>
 		</Action>
 		<Action sr="act3" ve="6">
 			<code>159</code>
-			<Str sr="arg0" ve="3">ActiveNightSchedule</Str>
+			<Str sr="arg0" ve="3">%BMConfig_CalcNightSchedule</Str>
 			<Int sr="arg1" val="1"/>
 		</Action>
 		<Action sr="act4" ve="6">
@@ -2485,7 +2536,7 @@ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. You are free to distribute 
 	</Task>
 	<Task sr="task188">
 		<cdate>1367979879437</cdate>
-		<edate>1405357096516</edate>
+		<edate>1405997096196</edate>
 		<id>188</id>
 		<nme>ResetBatteryManager</nme>
 		<pri>10</pri>
@@ -2502,53 +2553,68 @@ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. You are free to distribute 
 			<Int sr="arg1" val="0"/>
 		</Action>
 		<Action sr="act10" ve="6">
+			<code>159</code>
+			<Str sr="arg0" ve="3">LowBatteryMonitor30</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act11" ve="6">
+			<code>159</code>
+			<Str sr="arg0" ve="3">DisplayOn</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act12" ve="6">
+			<code>159</code>
+			<Str sr="arg0" ve="3">StartBatteryBot</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act13" ve="6">
 			<code>549</code>
 			<Str sr="arg0" ve="3">%BM_*</Str>
 			<Int sr="arg1" val="1"/>
 		</Action>
-		<Action sr="act11" ve="6">
+		<Action sr="act14" ve="6">
 			<code>779</code>
 			<Str sr="arg0" ve="3">TBM</Str>
 			<Int sr="arg1" val="0"/>
 		</Action>
 		<Action sr="act2" ve="6">
 			<code>159</code>
-			<Str sr="arg0" ve="3">DaySchedule</Str>
+			<Str sr="arg0" ve="3">DaySchedule5</Str>
 			<Int sr="arg1" val="0"/>
 		</Action>
 		<Action sr="act3" ve="6">
 			<code>159</code>
-			<Str sr="arg0" ve="3">ActiveNightSchedule</Str>
+			<Str sr="arg0" ve="3">DaySchedule10</Str>
 			<Int sr="arg1" val="0"/>
 		</Action>
 		<Action sr="act4" ve="6">
 			<code>159</code>
-			<Str sr="arg0" ve="3">DisplayUnlocked</Str>
+			<Str sr="arg0" ve="3">DaySchedule15</Str>
 			<Int sr="arg1" val="0"/>
 		</Action>
 		<Action sr="act5" ve="6">
 			<code>159</code>
-			<Str sr="arg0" ve="3">DisplayOff</Str>
+			<Str sr="arg0" ve="3">NightSchedule1</Str>
 			<Int sr="arg1" val="0"/>
 		</Action>
 		<Action sr="act6" ve="6">
 			<code>159</code>
-			<Str sr="arg0" ve="3">LowBatteryMonitor15</Str>
+			<Str sr="arg0" ve="3">NightSchedule2</Str>
 			<Int sr="arg1" val="0"/>
 		</Action>
 		<Action sr="act7" ve="6">
 			<code>159</code>
-			<Str sr="arg0" ve="3">LowBatteryMonitor30</Str>
+			<Str sr="arg0" ve="3">DisplayUnlocked</Str>
 			<Int sr="arg1" val="0"/>
 		</Action>
 		<Action sr="act8" ve="6">
 			<code>159</code>
-			<Str sr="arg0" ve="3">DisplayOn</Str>
+			<Str sr="arg0" ve="3">DisplayOff</Str>
 			<Int sr="arg1" val="0"/>
 		</Action>
 		<Action sr="act9" ve="6">
 			<code>159</code>
-			<Str sr="arg0" ve="3">StartBatteryBot</Str>
+			<Str sr="arg0" ve="3">LowBatteryMonitor15</Str>
 			<Int sr="arg1" val="0"/>
 		</Action>
 	</Task>
@@ -2853,7 +2919,7 @@ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. You are free to distribute 
 	</Task>
 	<Task sr="task201">
 		<cdate>1385604694912</cdate>
-		<edate>1405224691807</edate>
+		<edate>1405997800286</edate>
 		<id>201</id>
 		<nme>DisplayOnHandler</nme>
 		<rty>1</rty>
@@ -2876,12 +2942,12 @@ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. You are free to distribute 
 		</Action>
 		<Action sr="act3" ve="6">
 			<code>159</code>
-			<Str sr="arg0" ve="3">DaySchedule</Str>
+			<Str sr="arg0" ve="3">%BMConfig_CalcDaySchedule</Str>
 			<Int sr="arg1" val="0"/>
 		</Action>
 		<Action sr="act4" ve="6">
 			<code>159</code>
-			<Str sr="arg0" ve="3">ActiveNightSchedule</Str>
+			<Str sr="arg0" ve="3">%BMConfig_CalcNightSchedule</Str>
 			<Int sr="arg1" val="0"/>
 		</Action>
 		<Action sr="act5" ve="6">
@@ -3623,9 +3689,10 @@ Daytime: %BM_isDayTime</Str>
 	</Task>
 	<Task sr="task260">
 		<cdate>1405238531860</cdate>
-		<edate>1405265638947</edate>
+		<edate>1406003465026</edate>
 		<id>260</id>
 		<nme>SetDefaultConfig</nme>
+		<pri>10</pri>
 		<Action sr="act0" ve="6">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%BMConfig_NetSpeedDuration</Str>
@@ -3681,6 +3748,68 @@ Daytime: %BM_isDayTime</Str>
 					<rhs></rhs>
 				</Condition>
 			</ConditionList>
+		</Action>
+		<Action sr="act4" ve="6">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%BMConfig_LowBattery</Str>
+			<Str sr="arg1" ve="3">15</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%BMConfig_LowBattery</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act5" ve="6">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%BMConfig_DayFreq</Str>
+			<Str sr="arg1" ve="3">5</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%BMConfig_DayFreq</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act6" ve="6">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%BMConfig_NightFreq</Str>
+			<Str sr="arg1" ve="3">1</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%BMConfig_NightFreq</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act7" ve="6">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%BMConfig_CalcDaySchedule</Str>
+			<Str sr="arg1" ve="3">DaySchedule%BMConfig_DayFreq</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act8" ve="6">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%BMConfig_CalcNightSchedule</Str>
+			<Str sr="arg1" ve="3">NightSchedule%BMConfig_NightFreq</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act9" ve="6">
+			<code>549</code>
+			<on>false</on>
+			<Str sr="arg0" ve="3">%BMConfig_*</Str>
+			<Int sr="arg1" val="1"/>
 		</Action>
 	</Task>
 	<Task sr="task261">
