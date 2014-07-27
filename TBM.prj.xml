@@ -15,10 +15,11 @@
 	<Profile sr="prof171" ve="2">
 		<cdate>1367912692375</cdate>
 		<clp>true</clp>
-		<edate>1405996996704</edate>
+		<edate>1406178777544</edate>
 		<id>171</id>
 		<mid0>172</mid0>
 		<nme>DisplayOff</nme>
+		<pri>4</pri>
 		<Event sr="con0" ve="2">
 			<code>210</code>
 		</Event>
@@ -176,15 +177,15 @@
 	<Project sr="proj0" ve="2">
 		<cdate>1367912433439</cdate>
 		<name>TBM</name>
-		<pids>180,275,266,173,171,167,267,177,264,202,175,200</pids>
-		<scenes>BatteryBotSettingsPopup5,BatteryBotSettingsPopup3,BatteryBotAboutPopup,BatteryBotSettingsPopup,BatteryBotSettingsPopup4,BatteryBotIntroPopup,BatteryBotSettingsPopup2</scenes>
-		<tids>143,187,203,185,170,199,183,213,278,174,219,214,172,231,178,182,273,190,189,176,269,233,274,260,179,215,277,184,284,186,198,188,228,201,259,282,235,229,181,270,265,261,276,262,230,220</tids>
+		<pids>200,173,202,171,175,180,167,177,264,267,275,266</pids>
+		<scenes>BatteryBotSettingsPopup5,BatteryBotSettingsPopup2,BatteryBotSettingsPopup,BatteryBotSettingsPopup3,BatteryBotIntroPopup,BatteryBotSettingsPopup4,BatteryBotAboutPopup</scenes>
+		<tids>187,276,184,213,176,277,188,182,181,178,183,201,284,185,260,214,172,143,170,265,190,215,199,219,233,179,186,274,203,278,273,189,174,259,228,282,262,270,229,198,269,261,231,220,235,230</tids>
 		<Kid sr="Kid">
 			<feat0>android.hardware.wifi:y</feat0>
 			<launchID>228</launchID>
 			<pkg>com.thednase.taskerapp.batterybot</pkg>
-			<vnme>v1.4.0beta3</vnme>
-			<vnum>23</vnum>
+			<vnme>v1.4.0beta4</vnme>
+			<vnum>24</vnum>
 		</Kid>
 		<Img sr="icon" ve="2">
 			<nme>hd_aaa_ext_bulb</nme>
@@ -391,7 +392,7 @@ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. You are free to distribute 
 	</Scene>
 	<Scene sr="sceneBatteryBotSettingsPopup">
 		<cdate>1405141482209</cdate>
-		<edate>1405476292702</edate>
+		<edate>1406174688441</edate>
 		<heightLand>480</heightLand>
 		<heightPort>553</heightPort>
 		<nme>BatteryBotSettingsPopup</nme>
@@ -1896,10 +1897,11 @@ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. You are free to distribute 
 	</Task>
 	<Task sr="task182">
 		<cdate>1367917179473</cdate>
-		<edate>1404872702792</edate>
+		<edate>1406178892335</edate>
 		<id>182</id>
 		<nme>HandleWifi</nme>
 		<pri>10</pri>
+		<rty>1</rty>
 		<Action sr="act0" ve="6">
 			<code>523</code>
 			<on>false</on>
@@ -2327,10 +2329,11 @@ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. You are free to distribute 
 	</Task>
 	<Task sr="task187">
 		<cdate>1367930192384</cdate>
-		<edate>1404873032735</edate>
+		<edate>1406178899593</edate>
 		<id>187</id>
 		<nme>HandleData</nme>
 		<pri>10</pri>
+		<rty>1</rty>
 		<Action sr="act0" ve="6">
 			<code>523</code>
 			<on>false</on>
@@ -2672,10 +2675,11 @@ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. You are free to distribute 
 	</Task>
 	<Task sr="task190">
 		<cdate>1367997025958</cdate>
-		<edate>1405044544510</edate>
+		<edate>1406178885404</edate>
 		<id>190</id>
 		<nme>HandleNet</nme>
 		<pri>10</pri>
+		<rty>1</rty>
 		<Action sr="act0" ve="6">
 			<code>523</code>
 			<on>false</on>
