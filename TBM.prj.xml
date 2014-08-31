@@ -1,4 +1,4 @@
-<TaskerData sr="" dvi="1" tv="4.4u1m">
+<TaskerData sr="" dvi="1" tv="4.4u3m">
 	<dmetric>768.0,1184.0</dmetric>
 	<Profile sr="prof167" ve="2">
 		<cdate>1367912511078</cdate>
@@ -17,6 +17,7 @@
 		<clp>true</clp>
 		<edate>1406178777544</edate>
 		<id>171</id>
+		<limit>true</limit>
 		<mid0>172</mid0>
 		<nme>DisplayOff</nme>
 		<pri>4</pri>
@@ -29,6 +30,7 @@
 		<clp>true</clp>
 		<edate>1405302303654</edate>
 		<id>173</id>
+		<limit>true</limit>
 		<mid0>174</mid0>
 		<mid1>179</mid1>
 		<nme>BatteryManager</nme>
@@ -73,9 +75,9 @@
 	</Profile>
 	<Profile sr="prof180" ve="2">
 		<cdate>1367914351750</cdate>
-		<clp>true</clp>
-		<edate>1405356998269</edate>
+		<edate>1409456070937</edate>
 		<id>180</id>
+		<limit>true</limit>
 		<mid0>181</mid0>
 		<mid1>233</mid1>
 		<nme>LowBatteryMonitor15</nme>
@@ -90,6 +92,7 @@
 		<clp>true</clp>
 		<edate>1405224691807</edate>
 		<id>200</id>
+		<limit>true</limit>
 		<mid0>201</mid0>
 		<nme>DisplayOn</nme>
 		<Event sr="con0" ve="2">
@@ -101,6 +104,7 @@
 		<clp>true</clp>
 		<edate>1404873268896</edate>
 		<id>202</id>
+		<limit>true</limit>
 		<mid0>203</mid0>
 		<nme>StartBatteryBot</nme>
 		<Event sr="con0" ve="2">
@@ -177,9 +181,9 @@
 	<Project sr="proj0" ve="2">
 		<cdate>1367912433439</cdate>
 		<name>TBM</name>
-		<pids>200,173,202,171,175,180,167,177,264,267,275,266</pids>
-		<scenes>BatteryBotSettingsPopup5,BatteryBotSettingsPopup2,BatteryBotSettingsPopup,BatteryBotSettingsPopup3,BatteryBotIntroPopup,BatteryBotSettingsPopup4,BatteryBotAboutPopup</scenes>
-		<tids>187,276,184,213,176,277,188,182,181,178,183,201,284,185,260,214,172,143,170,265,190,215,199,219,233,179,186,274,203,278,273,189,174,259,228,282,262,270,229,198,269,261,231,220,235,230</tids>
+		<pids>264,266,200,180,202,175,267,167,177,275,171,173</pids>
+		<scenes>BatteryBotSettingsPopup3,BatteryBotSettingsPopup,BatteryBotSettingsPopup5,BatteryBotSettingsPopup2,BatteryBotAboutPopup,BatteryBotSettingsPopup4,BatteryBotIntroPopup</scenes>
+		<tids>176,215,182,183,187,172,199,178,201,276,189,214,203,219,185,143,170,179,184,190,259,278,233,188,269,213,228,181,265,284,282,270,174,274,277,260,235,261,273,262,229,230,231,186,220,198</tids>
 		<Kid sr="Kid">
 			<feat0>android.hardware.wifi:y</feat0>
 			<launchID>228</launchID>
@@ -2675,7 +2679,7 @@ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. You are free to distribute 
 	</Task>
 	<Task sr="task190">
 		<cdate>1367997025958</cdate>
-		<edate>1406178885404</edate>
+		<edate>1409455938270</edate>
 		<id>190</id>
 		<nme>HandleNet</nme>
 		<pri>10</pri>
@@ -2695,6 +2699,7 @@ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. You are free to distribute 
 			<ConditionList sr="if">
 				<bool0>And</bool0>
 				<bool1>Or2</bool1>
+				<bool2>Or2</bool2>
 				<Condition sr="c0" ve="3">
 					<lhs>%BM_DataOnLock</lhs>
 					<op>13</op>
@@ -2709,6 +2714,11 @@ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. You are free to distribute 
 					<lhs>%par2</lhs>
 					<op>4</op>
 					<rhs>^Intent</rhs>
+				</Condition>
+				<Condition sr="c3" ve="3">
+					<lhs>%par1</lhs>
+					<op>2</op>
+					<rhs>off</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
